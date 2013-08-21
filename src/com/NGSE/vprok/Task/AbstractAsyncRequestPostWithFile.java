@@ -9,6 +9,8 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.NGSE.vprok.Utils.Utility;
+import com.NGSE.vprok.VprokApplication;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpVersion;
 import org.apache.http.client.ClientProtocolException;
@@ -133,7 +135,7 @@ public class AbstractAsyncRequestPostWithFile extends ProgressedAsyncTask<Object
 			httprequest.setEntity(multipartEntity);
 			CookieSyncManager.createInstance(context);
 			CookieManager cookieManager = CookieManager.getInstance();
-			final String cookiestr = cookieManager.getCookie("vprok.tataronrails.com");
+            final String cookiestr = cookieManager.getCookie(Utility.getPref(VprokApplication.getAppContext(), Constants.API));
 			Log.e("TEST", "have cookie " + cookiestr);
 			if (cookiestr != null)
 			{
@@ -148,7 +150,7 @@ public class AbstractAsyncRequestPostWithFile extends ProgressedAsyncTask<Object
 				for (int i = 0; i < customCookies.size(); i++)
 				{
 					cookie = new BasicClientCookie(customCookies.get(i).getName(), customCookies.get(i).getValue());
-					cookie.setDomain("vprok.tataronrails.com");
+					cookie.setDomain(Utility.getPref(VprokApplication.getAppContext(), Constants.API));
 					cookieStore.addCookie(cookie);
 				}
 				mHttpClient.setCookieStore(cookieStore);

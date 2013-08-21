@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/apache-mime4j-core-0.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/acra-4.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/httpclient-4.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/httpcore-4.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/httpmime-4.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/core-2.3-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

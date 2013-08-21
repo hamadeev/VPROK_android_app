@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpcore-4.2.2-070c6361b3b2f07084c07bcee6778c0f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/acra-4.2.3-619c99c8b89ddcfb4171987234ce4aee.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/apache-mime4j-core-0.7.2-d6707f575a2fb0839a2e167ba6b249c9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/zxing-614082e547dcf463ff7a77d64cd4c4e0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/captureactivity-2f41e82a8b9ad38fe0edb49e2fe3c6a6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpmime-4.2.2-d2569ca858c742524308d38ff2ae04ca.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-54d0cb9e49c6175d7a8024264ba78740.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpclient-4.2.2-dc5322d995899f534a7ab8f257b21ba7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

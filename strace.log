@@ -1,0 +1,604 @@
+execve("/usr/bin/ant", ["ant", "debug"], [/* 59 vars */]) = 0
+brk(0)                                  = 0x94d000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=186303, ...}) = 0
+mmap(NULL, 186303, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9caeb43000
+close(3)                                = 0
+open("/usr/lib/libreadline.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200V\1\0\0\0\0\0@\0\0\0\0\0\0\0\270>\4\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\35\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\274\276\3\0\0\0\0\0\274\276\3\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\230\306\3\0\0\0\0\0\230\306#\0\0\0\0\0\230\306#\0\0\0\0\0\20w\0\0\0\0\0\0\20\215\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\260\326\3\0\0\0\0\0\260\326#\0\0\0\0\0\260\326#\0\0\0\0\0\340\1\0\0\0\0\0\0\340\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0$\0\0\0\0\0\0\0$\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0TY\3\0\0\0\0\0TY\3\0\0\0\0\0TY\3\0\0\0\0\0\324\20\0\0\0\0\0\0\324\20\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0R\345td\4\0\0\0\230\306\3\0\0\0\0\0\230\306#\0\0\0\0\0\230\306#\0\0\0\0\0h\31\0\0\0\0\0\0h\31\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0&\371\254\324s\2753?\6\25\4\"X\266}*!I\0\310\0\0\0\0\370\3\0\0o\0\0\0@\0\0\0\f\0\0\0,0!\0%\0\f@\10  \10A\21f`r\00143Fs\212\t\200!\6D\21Dj\242\2 (FJ\210\3026 \310\2\210\2\5\236-\0C\200C\1\1i\n\200\1\200K\333\231\324$\215-\201\4\10\2\0\r\30\6\2,R\t~\204G\306\244X\214P \316A!1[\23\0&IL`\333(\22\10\202\7\4\0\21\20\222\2144\22\24\0\0\n\26B\200\10\0\1,\0!\7,,\4\35\372\0\331\1\4\3\0\20\f\332\1\200\4e\4$\0 \23\1\0\0#\t\266\322\340p\0\1\0a\303\"\0\10Q\r\v\4\30\256\236\0\222\304\1\10\4\4\200:U\1\250\354j\307z\32a\5\4\6\1\240\200\220\0h\343\10)(4\206\223\20\f\f\202\5N \n\242\f\0\0DC\1\0\20@ \0#\f\4\21H\16Aa;\20\314&\0\311&b\t\303\200\1\f\2\204\202@D\3016\261\240\360\231x\260|\0\21\332*\316($\210\25A\0\200\0\200\300\r\0016\30D\3111\0J   \260:\5F\0100\10\240P\2\24N(\200A\1\0` \0\0\202D\2@R#\n '\4", 832) = 832
+fstat(3, {st_mode=S_IFREG|0555, st_size=326724, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9caeb42000
+mmap(NULL, 2380712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9cae70a000
+mprotect(0x7f9cae746000, 2097152, PROT_NONE) = 0
+mmap(0x7f9cae946000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3c000) = 0x7f9cae946000
+mmap(0x7f9cae94e000, 5032, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9cae94e000
+close(3)                                = 0
+open("/usr/lib/libncursesw.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0P\1\0\0\0\0\0@\0\0\0\0\0\0\0 \341\5\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\324\232\5\0\0\0\0\0\324\232\5\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\230\233\5\0\0\0\0\0\230\233%\0\0\0\0\0\230\233%\0\0\0\0\0\210D\0\0\0\0\0\0000L\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\200\314\5\0\0\0\0\0\200\314%\0\0\0\0\0\200\314%\0\0\0\0\0\320\1\0\0\0\0\0\0\320\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0$\0\0\0\0\0\0\0$\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0t\32\5\0\0\0\0\0t\32\5\0\0\0\0\0t\32\5\0\0\0\0\0l\25\0\0\0\0\0\0l\25\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0R\345td\4\0\0\0\230\233\5\0\0\0\0\0\230\233%\0\0\0\0\0\230\233%\0\0\0\0\0h4\0\0\0\0\0\0h4\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0o\213E\300\210s\3\200\236\371C1\276\265\362D\363Uy\373\0\0\0\0\305\3\0\0g\0\0\0@\0\0\0\f\0\0\0J \306\10\0\204&\210\2611\4!\3160\t\30h\240\1\1\300P0\21\27&\356B\1B\206A\34\202@\5\2\t(!\0\204\4 \0\1\0020\2\20\0\240\0%\21A\312\35\311a\1\242\247\20m\1\241\4\1\20 H|\20\300\0\240A\0\6PD\4\221\n\0\\F\0\0 \22\30\220\0034H\7\214 \1\204s%P\206 *\210\0012\1\30\0\205\0\0@\20\10\2\200B4\6\f#`\4\304\0@\2\22\3\6\1c\f&\300B\0001@\320\20\f\30D\202\220\20\205\264Q4M\0\212\10Ps\5\nf\260\4\210Q\320\302V\261\34\v\20\4\240,\200\250\t\f\204\30R\0B\0\2$\302\202\20\1 \0\332\204-\302\2619\260\0$\21\1\0\24\0\1\31\26d.\214\220$\2\0\f\242\202\fX@\10\4\f!\233!;0C\"\7!\370\372\200\210\5\200\363\21\2\31\7\0\222\303\223V@P1(\1\0\2\2D\1(=\211\t4\t$\0\20\4\0\22\24\214*\202\224\230\322\2\5j\214\320\nB\223\254\0247\226\0\1\3\20 \10 R8`\7\4A\0\200A\0\22\0\240\305\302\20", 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=387040, ...}) = 0
+mmap(NULL, 2484168, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9cae4ab000
+mprotect(0x7f9cae505000, 2093056, PROT_NONE) = 0
+mmap(0x7f9cae704000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x59000) = 0x7f9cae704000
+close(3)                                = 0
+open("/usr/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0@\0\0\0\0\0\0\0\3201\0\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0\36\0\35\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0000\32\0\0\0\0\0\0000\32\0\0\0\0\0\0000\32\0\0\0\0\0\0\36\0\0\0\0\0\0\0\36\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0@\3\0\0\0\0\0\0\260\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0\210- \0\0\0\0\0\20\2\0\0\0\0\0\0\20\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0P\32\0\0\0\0\0\0P\32\0\0\0\0\0\0P\32\0\0\0\0\0\0\274\0\0\0\0\0\0\0\274\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0R\345td\4\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\240\2\0\0\0\0\0\0\240\2\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0I\276\371\21\257\230c\263U\207\305\251:\22\"h'\373E0\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0\2\0\0\0\6\0\0\0 \0\0\0\0\0\0\0\33\0\0\0\33\0\0\0\2\0\0\0\7\0\0\0\230\2\21\0\200H\0\4\22\0\0@\203(\10\236\33\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\0\0\0\0\35\0\0\0\0\0\0\0\36\0\0\0\0\0\0\0\37\0\0\0\0\0\0\0 \0\0\0\0\0\0\0!\0\0\0#\0\0\0$\0\0\0&\0\0\0'\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0(\0\0\0\0\0\0\0\0\0\0\0\353\26\251\30a\257\0\371\301S\200\30\273\25sB\257\304M\17\221!\374\370\6\2\4\371\3733\373\17\371\31sB\372\31sB\225\263_\31\177\236\320\30a\242\222\6", 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=14672, ...}) = 0
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9cae2a7000
+mprotect(0x7f9cae2aa000, 2093056, PROT_NONE) = 0
+mmap(0x7f9cae4a9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f9cae4a9000
+close(3)                                = 0
+open("/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \33\2\0\0\0\0\0@\0\0\0\0\0\0\0\360\210\32\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0%\0\"\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0P\355\26\0\0\0\0\0P\355\26\0\0\0\0\0P\355\26\0\0\0\0\0\36\0\0\0\0\0\0\0\36\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\340)\32\0\0\0\0\0\340)\32\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\3306\32\0\0\0\0\0\3306:\0\0\0\0\0\3306:\0\0\0\0\0`P\0\0\0\0\0\0X\223\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@k\32\0\0\0\0\0@k:\0\0\0\0\0@k:\0\0\0\0\0\360\1\0\0\0\0\0\0\360\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0\7\0\0\0\4\0\0\0\3306\32\0\0\0\0\0\3306:\0\0\0\0\0\3306:\0\0\0\0\0\20\0\0\0\0\0\0\0h\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0P\345td\4\0\0\0p\355\26\0\0\0\0\0p\355\26\0\0\0\0\0p\355\26\0\0\0\0\0Dj\0\0\0\0\0\0Dj\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0R\345td\4\0\0\0\3306\32\0\0\0\0\0\3306:\0\0\0\0\0\3306:\0\0\0\0\0(9\0\0\0\0\0\0(9\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0Q\303\227Q\4\304\313\353\356>\347s^\270\3713,\366OW\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0\2\0\0\0\6\0\0\0 \0\0\0\0\0\0\0\363\3\0\0\t\0\0\0\0\1\0\0\16\0\0\0\0000\20D\240 \2\1\210\3\346\220\305E\214\0\300\0\10\0\5\200\0`\300\200\0\r\212\f\0\4\20\0\210D2\10.@\210P4, \16\"H&\204\300\214\4\10\0\2\2\16\241\254\32\4f\300\0\3002\0\300\0P\1 \201\10\204\v  ($\0\4 P\0\20X\200\312DB(\0\6\200\20\30B\0 @\200\0\tP\0Q\212@\20\0\0\0\0\10\0\0\21\20", 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2035252, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9caeb41000
+mmap(NULL, 3852848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f9cadefa000
+mprotect(0x7f9cae09d000, 2097152, PROT_NONE) = 0
+mmap(0x7f9cae29d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a3000) = 0x7f9cae29d000
+mmap(0x7f9cae2a3000, 14896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9cae2a3000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9caeb40000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9caeb3f000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9caeb3e000
+arch_prctl(ARCH_SET_FS, 0x7f9caeb3f700) = 0
+mprotect(0x7f9cae29d000, 16384, PROT_READ) = 0
+mprotect(0x7f9cae4a9000, 4096, PROT_READ) = 0
+mprotect(0x7f9cae704000, 16384, PROT_READ) = 0
+mprotect(0x7f9cae946000, 8192, PROT_READ) = 0
+mprotect(0x6af000, 4096, PROT_READ)     = 0
+mprotect(0x7f9caeb71000, 4096, PROT_READ) = 0
+munmap(0x7f9caeb43000, 186303)          = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+open("/dev/tty", O_RDWR|O_NONBLOCK)     = 3
+close(3)                                = 0
+brk(0)                                  = 0x94d000
+brk(0x96e000)                           = 0x96e000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1607632, ...}) = 0
+mmap(NULL, 1607632, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f9cae9b5000
+close(3)                                = 0
+getuid()                                = 1000
+getgid()                                = 100
+geteuid()                               = 1000
+getegid()                               = 100
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9caeb70000
+read(3, "MemTotal:        6000280 kB\nMemFree:          499268 kB\nBuffers:          192768 kB\nCached:          2344868 kB\nSwapCached:            0 kB\nActive:          3687768 kB\nInactive:        1447544 kB\nActive(anon):    2679968 kB\nInactive(anon):   259092 kB\nActive(file):    1007800 kB\nInactive(file):  1188452 kB\nUnevictable:         200 kB\nMlocked:             200 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:                80 kB\nWriteback:             0 kB\nAnonPages:       2597964 kB\nMapped:           248948 kB\nShmem:            341368 kB\nSlab:             212824 kB\nSReclaimable:     173416 kB\nSUnreclaim:        39408 kB\nKernelStack:        4408 kB\nPageTables:        59716 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:     3000140 kB\nCommitted_AS:    6439160 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:      370212 kB\nVmallocChunk:   34359285628 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:    821248 kB\nHugePages_Total:       0\nHugePages_Fre", 1024) = 1024
+close(3)                                = 0
+munmap(0x7f9caeb70000, 4096)            = 0
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigaction(SIGQUIT, {SIG_IGN, [], SA_RESTORER, 0x7f9cadf2f240}, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+uname({sys="Linux", node="n56", ...})   = 0
+stat("/home/squareduck/Development/Android/vprok-android", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getpid()                                = 10307
+open("/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib/gconv/gconv-modules", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=56302, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9caeb70000
+read(3, "# GNU libc iconv configuration.\n# Copyright (C) 1997-2005, 2007, 2008, 2011 Free Software Foundation, Inc.\n# This file is part of the GNU C Library.\n\n# The GNU C Library is free software; you can redistribute it and/or\n# modify it under the terms of the GNU Lesser General Public\n# License as published by the Free Software Foundation; either\n# version 2.1 of the License, or (at your option) any later version.\n\n# The GNU C Library is distributed in the hope that it will be useful,\n# but WITHOUT ANY WARRANTY; without even the implied warranty of\n# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\n# Lesser General Public License for more details.\n\n# You should have received a copy of the GNU Lesser General Public\n# License along with the GNU C Library; if not, see\n# <http://www.gnu.org/licenses/>.\n\n# All lines contain the following information:\n\n# If the lines start with `module'\n#  fromset:\teither a name triple or a regular expression triple.\n#  toset:\ta name triple or an expression with \\N to get regular\n#\t\texpression matching results.\n#  filename:\tfilename of the module implementing the transformation.\n#\t\tIf it is not absolute the path is made absolute by prepending\n#\t\tthe directory the configuration file is found in.\n#  cost:\toptional cost of the transformation.  Default is 1.\n\n# If the lines start with `alias'\n#  alias:\talias name which is not really recognized.\n#  name:\tthe real name of the character set\n\nalias\tISO-IR-4//\t\tBS_4730//\nalias\tISO646-GB//\t\tBS_4730//\nalias\tGB//\t\t\tBS_4730//\nalias\tUK//\t\t\tBS_4730//\nalias\tCSISO4UNITEDKINGDOM//\tBS_4730//\nmodule\tBS_4730//\t\tINTERNAL\t\tISO646\t\t2\nmodule\tINTERNAL\t\tBS_4730//\t\tISO646\t\t2\n\nalias\tISO-IR-121//\t\tCSA_Z243.4-1985-1//\nalias\tISO646-CA//\t\tCSA_Z243.4-1985-1//\nalias\tCSA7-1//\t\tCSA_Z243.4-1985-1//\nalias\tCA//\t\t\tCSA_Z243.4-1985-1//\nalias\tCSISO121CANADIAN1//\tCSA_Z243.4-1985-1//\nalias\tCSA_Z243.419851//\tCSA_Z243.4-1985-1//\nmodule\tCSA_Z243.4-1985-1//\tINTERNAL\t\tISO646\t\t2\nmodule\tINTERNAL\t\tCSA_Z243.4-1985-1//\tISO646\t\t2\n\nalias\tISO-IR-122//\t\tCSA_Z243.4-1985-2//\nalias\tISO6"..., 4096) = 4096
+read(3, "lias\tCSISO141JUSIB1002//\tJUS_I.B1.002//\nmodule\tJUS_I.B1.002//\t\tINTERNAL\t\tISO646\t\t2\nmodule\tINTERNAL\t\tJUS_I.B1.002//\t\tISO646\t\t2\n\nalias\tISO646-KR//\t\tKSC5636//\nalias\tCSKSC5636//\t\tKSC5636//\nmodule\tKSC5636//\t\tINTERNAL\t\tISO646\t\t2\nmodule\tINTERNAL\t\tKSC5636//\t\tISO646\t\t2\n\nalias\tISO-IR-86//\t\tMSZ_7795.3//\nalias\tISO646-HU//\t\tMSZ_7795.3//\nalias\tHU//\t\t\tMSZ_7795.3//\nalias\tCSISO86HUNGARIAN//\tMSZ_7795.3//\nmodule\tMSZ_7795.3//\t\tINTERNAL\t\tISO646\t\t2\nmodule\tINTERNAL\t\tMSZ_7795.3//\t\tISO646\t\t2\n\nalias\tCUBA//\t\t\tNC_NC00-10//\nalias\tNC_NC00-10:81//\t\tNC_NC00-10//\nalias\tISO-IR-151//\t\tNC_NC00-10//\nalias\tISO646-CU//\t\tNC_NC00-10//\nalias\tCSISO151CUBA//\t\tNC_NC00-10//\nalias\tNC_NC0010//\t\tNC_NC00-10//\nmodule\tNC_NC00-10//\t\tINTERNAL\t\tISO646\t\t2\nmodule\tINTERNAL\t\tNC_NC00-10//\t\tISO646\t\t2\n\nalias\tISO-IR-69//\t\tNF_Z_62-010//\nalias\tISO646-FR//\t\tNF_Z_62-010//\nalias\tFR//\t\t\tNF_Z_62-010//\nalias\tCSISO69FRENCH//\t\tNF_Z_62-010//\nalias\tNF_Z_62010//\t\tNF_Z_62-010//\nmodule\tNF_Z_62-010//\t\tINTERNAL\t\tISO646\t\t2\nmodule\tINTERNAL\t\tNF_Z_62-010//\t\tISO646\t\t2\n\nalias\tISO-IR-25//\t\tNF_Z_62-010_1973//\nalias\tISO646-FR1//\t\tNF_Z_62-010_1973//\nalias\tNF_Z_62-010_(1973)//\tNF_Z_62-010_1973//\nalias\tCSISO25FRENCH//\t\tNF_Z_62-010_1973//\nalias\tNF_Z_62010_1973//\tNF_Z_62-010_1973//\nmodule\tNF_Z_62-010_1973//\tINTERNAL\t\tISO646\t\t2\nmodule\tINTERNAL\t\tNF_Z_62-010_1973//\tISO646\t\t2\n\nalias\tISO-IR-60//\t\tNS_4551-1//\nalias\tISO646-NO//\t\tNS_4551-1//\nalias\tNO//\t\t\tNS_4551-1//\nalias\tCSISO60DANISHNORWEGIAN// NS_4551-1//\nalias\tCSISO60NORWEGIAN1//\tNS_4551-1//\nalias\tNS_45511//\t\tNS_4551-1//\nmodule\tNS_4551-1//\t\tINTERNAL\t\tISO646\t\t2\nmodule\tINTERNAL\t\tNS_4551-1//\t\tISO646\t\t2\n\nalias\tISO646-NO2//\t\tNS_4551-2//\nalias\tISO-IR-61//\t\tNS_4551-2//\nalias\tNO2//\t\t\tNS_4551-2//\nalias\tCSISO61NORWEGIAN2//\tNS_4551-2//\nalias\tNS_45512//\t\tNS_4551-2//\nmodule\tNS_4551-2//\t\tINTERNAL\t\tISO646\t\t2\nmodule\tINTERNAL\t\tNS_4551-2//\t\tISO646\t\t2\n\nalias\tISO-IR-16//\t\tPT//\nalias\tISO646-PT//\t\tPT//\nalias\tCSISO16PORTUGESE//\tPT//\nmodule\tPT//\t\t\tINTERNAL\t\tISO646\t\t2\nmodule\tINTERNAL\t\tPT//\t\t\tISO646\t\t2\n\nalias\tISO-IR-84//\t\tPT2//\nalias\tISO646-PT2//\t\tPT2//\nalias\tCSISO84PORTUGUESE2//\tPT2/"..., 4096) = 4096
+read(3, "odule\t\tcost\nalias\tISO-IR-110//\t\tISO-8859-4//\nalias\tISO_8859-4:1988//\tISO-8859-4//\nalias\tISO_8859-4//\t\tISO-8859-4//\nalias\tISO8859-4//\t\tISO-8859-4//\nalias\tISO88594//\t\tISO-8859-4//\nalias\tLATIN4//\t\tISO-8859-4//\nalias\tL4//\t\t\tISO-8859-4//\nalias\tCSISOLATIN4//\t\tISO-8859-4//\nalias\t8859_4//\t\tISO-8859-4//\nalias\tOSF00010004//\t\tISO-8859-4//\nmodule\tISO-8859-4//\t\tINTERNAL\t\tISO8859-4\t1\nmodule\tINTERNAL\t\tISO-8859-4//\t\tISO8859-4\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO-IR-144//\t\tISO-8859-5//\nalias\tISO_8859-5:1988//\tISO-8859-5//\nalias\tISO_8859-5//\t\tISO-8859-5//\nalias\tISO8859-5//\t\tISO-8859-5//\nalias\tISO88595//\t\tISO-8859-5//\nalias\tCYRILLIC//\t\tISO-8859-5//\nalias\tCSISOLATINCYRILLIC//\tISO-8859-5//\nalias\t8859_5//\t\tISO-8859-5//\nalias\tOSF00010005//\t\tISO-8859-5//\nalias\tIBM915//\t\tISO-8859-5//\nalias\tCP915//\t\t\tISO-8859-5//\nmodule\tISO-8859-5//\t\tINTERNAL\t\tISO8859-5\t1\nmodule\tINTERNAL\t\tISO-8859-5//\t\tISO8859-5\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO-IR-127//\t\tISO-8859-6//\nalias\tISO_8859-6:1987//\tISO-8859-6//\nalias\tISO_8859-6//\t\tISO-8859-6//\nalias\tISO8859-6//\t\tISO-8859-6//\nalias\tISO88596//\t\tISO-8859-6//\nalias\tECMA-114//\t\tISO-8859-6//\nalias\tASMO-708//\t\tISO-8859-6//\nalias\tARABIC//\t\tISO-8859-6//\nalias\tCSISOLATINARABIC//\tISO-8859-6//\nalias\t8859_6//\t\tISO-8859-6//\nalias\tOSF00010006//\t\tISO-8859-6//\nalias\tIBM1089//\t\tISO-8859-6//\nalias\tCP1089//\t\tISO-8859-6//\nmodule\tISO-8859-6//\t\tINTERNAL\t\tISO8859-6\t1\nmodule\tINTERNAL\t\tISO-8859-6//\t\tISO8859-6\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO-IR-126//\t\tISO-8859-7//\nalias\tISO_8859-7:2003//\tISO-8859-7//\nalias\tISO_8859-7:1987//\tISO-8859-7//\nalias\tISO_8859-7//\t\tISO-8859-7//\nalias\tISO8859-7//\t\tISO-8859-7//\nalias\tISO88597//\t\tISO-8859-7//\nalias\tELOT_928//\t\tISO-8859-7//\nalias\tECMA-118//\t\tISO-8859-7//\nalias\tGREEK//\t\t\tISO-8859-7//\nalias\tGREEK8//\t\tISO-8859-7//\nalias\tCSISOLATINGREEK//\tISO-8859-7//\nalias\t8859_7//\t\tISO-8859-7//\nalias\tOSF00010007//\t\tISO-8859-7//\nalias\tIBM813//\t\tISO-8859-7//\nalias\tCP813//\t\t\tISO-8859-7//\nmodule\tISO-8859-7//\t\tINTERNAL\t\tISO8859-7\t1\nmodule\tINTERNAL\t\tISO-8859-7//\t\tISO8859-7\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\t"..., 4096) = 4096
+read(3, "9-14//\nalias\tL8//\t\t\tISO-8859-14//\nalias\tISO_8859-14:1998//\tISO-8859-14//\nalias\tISO_8859-14//\t\tISO-8859-14//\nalias\tISO-CELTIC//\t\tISO-8859-14//\nmodule\tISO-8859-14//\t\tINTERNAL\t\tISO8859-14\t1\nmodule\tINTERNAL\t\tISO-8859-14//\t\tISO8859-14\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO8859-15//\t\tISO-8859-15//\nalias\tISO885915//\t\tISO-8859-15//\nalias\tISO-IR-203//\t\tISO-8859-15//\nalias\tISO_8859-15//\t\tISO-8859-15//\nalias\tLATIN-9//\t\tISO-8859-15//\nalias\tLATIN9//\t\tISO-8859-15//\nalias\tISO_8859-15:1998//\tISO-8859-15//\nmodule\tISO-8859-15//\t\tINTERNAL\t\tISO8859-15\t1\nmodule\tINTERNAL\t\tISO-8859-15//\t\tISO8859-15\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO8859-16//\t\tISO-8859-16//\nalias\tISO885916//\t\tISO-8859-16//\nalias\tISO-IR-226//\t\tISO-8859-16//\nalias\tLATIN10//\t\tISO-8859-16//\nalias\tL10//\t\t\tISO-8859-16//\nalias\tISO_8859-16:2001//\tISO-8859-16//\nalias\tISO_8859-16//\t\tISO-8859-16//\nmodule\tISO-8859-16//\t\tINTERNAL\t\tISO8859-16\t1\nmodule\tINTERNAL\t\tISO-8859-16//\t\tISO8859-16\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tT.61//\t\t\tT.61-8BIT//\nalias\tISO-IR-103//\t\tT.61-8BIT//\nalias\tCSISO103T618BIT//\tT.61-8BIT//\nalias\tT.618BIT//\t\tT.61-8BIT//\nmodule\tT.61-8BIT//\t\tINTERNAL\t\tT.61\t\t1\nmodule\tINTERNAL\t\tT.61-8BIT//\t\tT.61\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO-IR-156//\t\tISO_6937//\nalias\tISO_6937:1992//\t\tISO_6937//\nalias\tISO6937//\t\tISO_6937//\nmodule\tISO_6937//\t\tINTERNAL\t\tISO_6937\t1\nmodule\tINTERNAL\t\tISO_6937//\t\tISO_6937\t1\n\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO-IR-90//\t\tISO_6937-2//\nalias\tISO_6937-2:1983//\tISO_6937-2//\nalias\tCSISO90//\t\tISO_6937-2//\nalias\tISO_69372//\t\tISO_6937-2//\nmodule\tISO_6937-2//\t\tINTERNAL\t\tISO_6937-2\t1\nmodule\tINTERNAL\t\tISO_6937-2//\t\tISO_6937-2\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tSHIFT-JIS//\t\tSJIS//\nalias\tSHIFT_JIS//\t\tSJIS//\nalias\tMS_KANJI//\t\tSJIS//\nalias\tCSSHIFTJIS//\t\tSJIS//\nmodule\tSJIS//\t\t\tINTERNAL\t\tSJIS\t\t1\nmodule\tINTERNAL\t\tSJIS//\t\t\tSJIS\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tWINDOWS-31J//\t\tCP932//\nalias\tMS932//\t\t\tCP932//\nalias\tSJIS-OPEN//\t\tCP932//\nalias\tSJIS-WIN//\t\tCP932//\nalias\tCSWINDOWS31J//\t\tCP932//\nmodule\tCP932//\t\t\tINTERNAL\t\tCP932\t\t1\nmodule\tINTERNAL\t\tCP932//\t\t\tCP932"..., 4096) = 4096
+read(3, "CSEBCDICES//\t\tEBCDIC-ES//\nalias\tEBCDICES//\t\tEBCDIC-ES//\nmodule\tEBCDIC-ES//\t\tINTERNAL\t\tEBCDIC-ES\t1\nmodule\tINTERNAL\t\tEBCDIC-ES//\t\tEBCDIC-ES\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCSEBCDICESA//\t\tEBCDIC-ES-A//\nalias\tEBCDICESA//\t\tEBCDIC-ES-A//\nmodule\tEBCDIC-ES-A//\t\tINTERNAL\t\tEBCDIC-ES-A\t1\nmodule\tINTERNAL\t\tEBCDIC-ES-A//\t\tEBCDIC-ES-A\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCSEBCDICESS//\t\tEBCDIC-ES-S//\nalias\tEBCDICESS//\t\tEBCDIC-ES-S//\nmodule\tEBCDIC-ES-S//\t\tINTERNAL\t\tEBCDIC-ES-S\t1\nmodule\tINTERNAL\t\tEBCDIC-ES-S//\t\tEBCDIC-ES-S\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCSEBCDICFISE//\t\tEBCDIC-FI-SE//\nalias\tEBCDICFISE//\t\tEBCDIC-FI-SE//\nmodule\tEBCDIC-FI-SE//\t\tINTERNAL\t\tEBCDIC-FI-SE\t1\nmodule\tINTERNAL\t\tEBCDIC-FI-SE//\t\tEBCDIC-FI-SE\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCSEBCDICFISEA//\t\tEBCDIC-FI-SE-A//\nalias\tEBCDICFISEA//\t\tEBCDIC-FI-SE-A//\nmodule\tEBCDIC-FI-SE-A//\tINTERNAL\t\tEBCDIC-FI-SE-A\t1\nmodule\tINTERNAL\t\tEBCDIC-FI-SE-A//\tEBCDIC-FI-SE-A\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCSEBCDICFR//\t\tEBCDIC-FR//\nalias\tEBCDICFR//\t\tEBCDIC-FR//\nmodule\tEBCDIC-FR//\t\tINTERNAL\t\tEBCDIC-FR\t1\nmodule\tINTERNAL\t\tEBCDIC-FR//\t\tEBCDIC-FR\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tEBCDICISFRISS//\t\tEBCDIC-IS-FRISS//\nmodule\tEBCDIC-IS-FRISS//\tINTERNAL\t\tEBCDIC-IS-FRISS\t1\nmodule\tINTERNAL\t\tEBCDIC-IS-FRISS//\tEBCDIC-IS-FRISS\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCSEBCDICIT//\t\tEBCDIC-IT//\nalias\tEBCDICIT//\t\tEBCDIC-IT//\nmodule\tEBCDIC-IT//\t\tINTERNAL\t\tEBCDIC-IT\t1\nmodule\tINTERNAL\t\tEBCDIC-IT//\t\tEBCDIC-IT\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCSEBCDICPT//\t\tEBCDIC-PT//\nalias\tEBCDICPT//\t\tEBCDIC-PT//\nmodule\tEBCDIC-PT//\t\tINTERNAL\t\tEBCDIC-PT\t1\nmodule\tINTERNAL\t\tEBCDIC-PT//\t\tEBCDIC-PT\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCSEBCDICUK//\t\tEBCDIC-UK//\nalias\tEBCDICUK//\t\tEBCDIC-UK//\nmodule\tEBCDIC-UK//\t\tINTERNAL\t\tEBCDIC-UK\t1\nmodule\tINTERNAL\t\tEBCDIC-UK//\t\tEBCDIC-UK\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCSEBCDICUS//\t\tEBCDIC-US//\nalias\tEBCDICUS//\t\tEBCDIC-US//\nmodule\tEBCDIC-US//\t\tINTERNAL\t\tEBCDIC-US\t1\nmodule\tINTERNAL\t\tEBCDIC-US//\t\tEBCDIC-US\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP037//\t\t\tIBM037//\nalias\tEBCDIC-CP-US//\t\tIBM037//"..., 4096) = 4096
+read(3, "IBM284//\nalias\tEBCDIC-CP-ES//\t\tIBM284//\nalias\tCSIBM284//\t\tIBM284//\nalias\tOSF1002011C//\t\tIBM284//\nalias\tCP1079//\t\tIBM284//\nmodule\tIBM284//\t\tINTERNAL\t\tIBM284\t\t1\nmodule\tINTERNAL\t\tIBM284//\t\tIBM284\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP285//\t\t\tIBM285//\nalias\tEBCDIC-CP-GB//\t\tIBM285//\nalias\tCSIBM285//\t\tIBM285//\nalias\tOSF1002011D//\t\tIBM285//\nmodule\tIBM285//\t\tINTERNAL\t\tIBM285\t\t1\nmodule\tINTERNAL\t\tIBM285//\t\tIBM285\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP290//\t\t\tIBM290//\nalias\tEBCDIC-JP-KANA//\tIBM290//\nalias\tCSIBM290//\t\tIBM290//\nalias\tOSF10020122//\t\tIBM290//\nmodule\tIBM290//\t\tINTERNAL\t\tIBM290\t\t1\nmodule\tINTERNAL\t\tIBM290//\t\tIBM290\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP297//\t\t\tIBM297//\nalias\tEBCDIC-CP-FR//\t\tIBM297//\nalias\tCSIBM297//\t\tIBM297//\nalias\tOSF10020129//\t\tIBM297//\nalias\tCP1081//\t\tIBM297//\nmodule\tIBM297//\t\tINTERNAL\t\tIBM297\t\t1\nmodule\tINTERNAL\t\tIBM297//\t\tIBM297\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP420//\t\t\tIBM420//\nalias\tEBCDIC-CP-AR1//\t\tIBM420//\nalias\tCSIBM420//\t\tIBM420//\nalias\tOSF100201A4//\t\tIBM420//\nmodule\tIBM420//\t\tINTERNAL\t\tIBM420\t\t1\nmodule\tINTERNAL\t\tIBM420//\t\tIBM420\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP423//\t\t\tIBM423//\nalias\tEBCDIC-CP-GR//\t\tIBM423//\nalias\tCSIBM423//\t\tIBM423//\nmodule\tIBM423//\t\tINTERNAL\t\tIBM423\t\t1\nmodule\tINTERNAL\t\tIBM423//\t\tIBM423\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP424//\t\t\tIBM424//\nalias\tEBCDIC-CP-HE//\t\tIBM424//\nalias\tCSIBM424//\t\tIBM424//\nalias\tOSF100201A8//\t\tIBM424//\nmodule\tIBM424//\t\tINTERNAL\t\tIBM424\t\t1\nmodule\tINTERNAL\t\tIBM424//\t\tIBM424\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP437//\t\t\tIBM437//\nalias\t437//\t\t\tIBM437//\nalias\tCSPC8CODEPAGE437//\tIBM437//\nalias\tOSF100201B5//\t\tIBM437//\nmodule\tIBM437//\t\tINTERNAL\t\tIBM437\t\t1\nmodule\tINTERNAL\t\tIBM437//\t\tIBM437\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP500//\t\t\tIBM500//\nalias\t500//\t\t\tIBM500//\nalias\t500V1//\t\t\tIBM500//\nalias\tEBCDIC-CP-BE//\t\tIBM500//\nalias\tEBCDIC-CP-CH//\t\tIBM500//\nalias\tCSIBM500//\t\tIBM500//\nalias\tOSF100201F4//\t\tIBM500//\nalias\tCP1084//\t\tIBM500//\nmodule\tIBM500//\t\tINTERNAL\t\tIBM500\t\t1\nmodule\tINTERNAL\t\tIBM500//\t\tIBM500\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalia"..., 4096) = 4096
+read(3, "ias\t864//\t\t\tIBM864//\nalias\tCSIBM864//\t\tIBM864//\nalias\tOSF10020360//\t\tIBM864//\nmodule\tIBM864//\t\tINTERNAL\t\tIBM864\t\t1\nmodule\tINTERNAL\t\tIBM864//\t\tIBM864\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP865//\t\t\tIBM865//\nalias\t865//\t\t\tIBM865//\nalias\tCSIBM865//\t\tIBM865//\nmodule\tIBM865//\t\tINTERNAL\t\tIBM865\t\t1\nmodule\tINTERNAL\t\tIBM865//\t\tIBM865\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP866//\t\t\tIBM866//\nalias\t866//\t\t\tIBM866//\nalias\tCSIBM866//\t\tIBM866//\nmodule\tIBM866//\t\tINTERNAL\t\tIBM866\t\t1\nmodule\tINTERNAL\t\tIBM866//\t\tIBM866\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP866NAV//\t\tIBM866NAV//\nalias\t866NAV//\t\tIBM866NAV//\nmodule\tIBM866NAV//\t\tINTERNAL\t\tIBM866NAV\t1\nmodule\tINTERNAL\t\tIBM866NAV//\t\tIBM866NAV\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP868//\t\t\tIBM868//\nalias\tCP-AR//\t\t\tIBM868//\nalias\tCSIBM868//\t\tIBM868//\nalias\tOSF10020364//\t\tIBM868//\nmodule\tIBM868//\t\tINTERNAL\t\tIBM868\t\t1\nmodule\tINTERNAL\t\tIBM868//\t\tIBM868\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP869//\t\t\tIBM869//\nalias\t869//\t\t\tIBM869//\nalias\tCP-GR//\t\t\tIBM869//\nalias\tCSIBM869//\t\tIBM869//\nalias\tOSF10020365//\t\tIBM869//\nmodule\tIBM869//\t\tINTERNAL\t\tIBM869\t\t1\nmodule\tINTERNAL\t\tIBM869//\t\tIBM869\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP870//\t\t\tIBM870//\nalias\tEBCDIC-CP-ROECE//\tIBM870//\nalias\tEBCDIC-CP-YU//\t\tIBM870//\nalias\tCSIBM870//\t\tIBM870//\nalias\tOSF10020366//\t\tIBM870//\nmodule\tIBM870//\t\tINTERNAL\t\tIBM870\t\t1\nmodule\tINTERNAL\t\tIBM870//\t\tIBM870\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP871//\t\t\tIBM871//\nalias\tEBCDIC-CP-IS//\t\tIBM871//\nalias\tCSIBM871//\t\tIBM871//\nalias\tOSF10020367//\t\tIBM871//\nmodule\tIBM871//\t\tINTERNAL\t\tIBM871\t\t1\nmodule\tINTERNAL\t\tIBM871//\t\tIBM871\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP875//\t\t\tIBM875//\nalias\tEBCDIC-GREEK//\t\tIBM875//\nalias\tOSF1002036B//\t\tIBM875//\nmodule\tIBM875//\t\tINTERNAL\t\tIBM875\t\t1\nmodule\tINTERNAL\t\tIBM875//\t\tIBM875\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP880//\t\t\tIBM880//\nalias\tEBCDIC-CYRILLIC//\tIBM880//\nalias\tCSIBM880//\t\tIBM880//\nalias\tOSF10020370//\t\tIBM880//\nmodule\tIBM880//\t\tINTERNAL\t\tIBM880\t\t1\nmodule\tINTERNAL\t\tIBM880//\t\tIBM880\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP891//\t\t\tIBM891//\nalias\tCSIB"..., 4096) = 4096
+read(3, "lias\tCSIBM939//\t\tIBM939//\nmodule\tIBM939//\t\tINTERNAL\t\tIBM939\t\t1\nmodule\tINTERNAL\t\tIBM939//\t\tIBM939\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-943//\t\tIBM943//\nalias\tCSIBM943//\t\tIBM943//\nmodule\tIBM943//\t\tINTERNAL\t\tIBM943\t\t1\nmodule\tINTERNAL\t\tIBM943//\t\tIBM943\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP1004//\t\tIBM1004//\nalias\tOS2LATIN1//\t\tIBM1004//\nmodule\tIBM1004//\t\tINTERNAL\t\tIBM1004\t\t1\nmodule\tINTERNAL\t\tIBM1004//\t\tIBM1004\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP1026//\t\tIBM1026//\nalias\t1026//\t\t\tIBM1026//\nalias\tCSIBM1026//\t\tIBM1026//\nalias\tOSF10020402//\t\tIBM1026//\nmodule\tIBM1026//\t\tINTERNAL\t\tIBM1026\t\t1\nmodule\tINTERNAL\t\tIBM1026//\t\tIBM1026\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1046//\t\tIBM1046//\nalias\tCP1046//\t\tIBM1046//\nalias\t1046//\t\t\tIBM1046//\nmodule\tIBM1046//\t\tINTERNAL\t\tIBM1046\t\t1\nmodule\tINTERNAL\t\tIBM1046//\t\tIBM1046\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1047//\t\tIBM1047//\nalias\tCP1047//\t\tIBM1047//\nalias\t1047//\t\t\tIBM1047//\nalias\tOSF10020417//\t\tIBM1047//\nmodule\tIBM1047//\t\tINTERNAL\t\tIBM1047\t\t1\nmodule\tINTERNAL\t\tIBM1047//\t\tIBM1047\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1124//\t\tIBM1124//\nalias\tCP1124//\t\tIBM1124//\nalias\tCSIBM1124//\t\tIBM1124//\nmodule\tIBM1124//\t\tINTERNAL\t\tIBM1124\t\t1\nmodule\tINTERNAL\t\tIBM1124//\t\tIBM1124\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1129//\t\tIBM1129//\nalias\tCP1129//\t\tIBM1129//\nalias\tCSIBM1129//\t\tIBM1129//\nmodule\tIBM1129//\t\tINTERNAL\t\tIBM1129\t\t1\nmodule\tINTERNAL\t\tIBM1129//\t\tIBM1129\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1160//\t\tIBM1160//\nalias\tCP1160//\t\tIBM1160//\nalias\tCSIBM1160//\t\tIBM1160//\nmodule\tIBM1160//\t\tINTERNAL\t\tIBM1160\t\t1\nmodule\tINTERNAL\t\tIBM1160//\t\tIBM1160\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1161//\t\tIBM1161//\nalias\tCP1161//\t\tIBM1161//\nalias\tCSIBM1161//\t\tIBM1161//\nmodule\tIBM1161//\t\tINTERNAL\t\tIBM1161\t\t1\nmodule\tINTERNAL\t\tIBM1161//\t\tIBM1161\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1132//\t\tIBM1132//\nalias\tCP1132//\t\tIBM1132//\nalias\tCSIBM1132//\t\tIBM1132//\nmodule\tIBM1132//\t\tINTERNAL\t\tIBM1132\t\t1\nmodule\tINTERNAL\t\tIBM1132//\t\tIBM1132\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1133//\t\tIBM1133//\nalias\tCP1133/"..., 4096) = 4096
+read(3, "alias\tcsGB2312//\t\tEUC-CN//\nalias\tCN-GB//\t\t\tEUC-CN//\nmodule\tEUC-CN//\t\tINTERNAL\t\tEUC-CN\t\t1\nmodule\tINTERNAL\t\tEUC-CN//\t\tEUC-CN\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nmodule\tEUC-CN//\t\tBIG5//\t\t\tGBBIG5\t\t1\nmodule\tBIG5//\t\t\tEUC-CN//\t\tGBBIG5\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tGB13000//\t\tGBK//\nalias\tCP936//\t\t\tGBK//\nalias\tMS936//\t\t\tGBK//\nalias\tWINDOWS-936//\t\tGBK//\nmodule\tGBK//\t\t\tINTERNAL\t\tGBK\t\t1\nmodule\tINTERNAL\t\tGBK//\t\t\tGBK\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nmodule\tGBK//\t\t\tEUC-CN//\t\tGBGBK\t\t1\nmodule\tEUC-CN//\t\tGBK//\t\t\tGBGBK\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tEUCTW//\t\t\tEUC-TW//\nalias\tOSF0005000a//\t\tEUC-TW//\nmodule\tEUC-TW//\t\tINTERNAL\t\tEUC-TW\t\t1\nmodule\tINTERNAL\t\tEUC-TW//\t\tEUC-TW\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tRUSCII//\t\tCP1125//\nalias\tIBM848//\t\tCP1125//\nmodule\tCP1125//\t\tINTERNAL\t\tCP1125\t\t1\nmodule\tINTERNAL\t\tCP1125//\t\tCP1125\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tMS-EE//\t\t\tCP1250//\nalias\tWINDOWS-1250//\t\tCP1250//\nmodule\tCP1250//\t\tINTERNAL\t\tCP1250\t\t1\nmodule\tINTERNAL\t\tCP1250//\t\tCP1250\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tMS-CYRL//\t\tCP1251//\nalias\tWINDOWS-1251//\t\tCP1251//\nmodule\tCP1251//\t\tINTERNAL\t\tCP1251\t\t1\nmodule\tINTERNAL\t\tCP1251//\t\tCP1251\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tMS-ANSI//\t\tCP1252//\nalias\tWINDOWS-1252//\t\tCP1252//\nmodule\tCP1252//\t\tINTERNAL\t\tCP1252\t\t1\nmodule\tINTERNAL\t\tCP1252//\t\tCP1252\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tMS-GREEK//\t\tCP1253//\nalias\tWINDOWS-1253//\t\tCP1253//\nmodule\tCP1253//\t\tINTERNAL\t\tCP1253\t\t1\nmodule\tINTERNAL\t\tCP1253//\t\tCP1253\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tMS-TURK//\t\tCP1254//\nalias\tWINDOWS-1254//\t\tCP1254//\nmodule\tCP1254//\t\tINTERNAL\t\tCP1254\t\t1\nmodule\tINTERNAL\t\tCP1254//\t\tCP1254\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tMS-HEBR//\t\tCP1255//\nalias\tWINDOWS-1255//\t\tCP1255//\nmodule\tCP1255//\t\tINTERNAL\t\tCP1255\t\t1\nmodule\tINTERNAL\t\tCP1255//\t\tCP1255\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tMS-ARAB//\t\tCP1256//\nalias\tWINDOWS-1256//\t\tCP1256//\nmodule\tCP1256//\t\tINTERNAL\t\tCP1256\t\t1\nmodule\tINTERNAL\t\tCP1256//\t\tCP1256\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tWINBALTRIM//\t\tCP1257//\nalias\tWINDOWS-1257//\t\tCP1257//\nmodule\tCP1257//\t\tINTERNAL\t\tCP1"..., 4096) = 4096
+read(3, "//\t\tISO-2022-CN-EXT//\nmodule\tISO-2022-CN-EXT//\tINTERNAL\t\tISO-2022-CN-EXT\t1\nmodule\tINTERNAL\t\tISO-2022-CN-EXT//\tISO-2022-CN-EXT\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tMAC//\t\t\tMACINTOSH//\nalias\tCSMACINTOSH//\t\tMACINTOSH//\nmodule\tMACINTOSH//\t\tINTERNAL\t\tMACINTOSH\t1\nmodule\tINTERNAL\t\tMACINTOSH//\t\tMACINTOSH\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO-IR-143//\t\tIEC_P27-1//\nalias\tCSISO143IECP271//\tIEC_P27-1//\nalias\tIEC_P271//\t\tIEC_P27-1//\nmodule\tIEC_P27-1//\t\tINTERNAL\t\tIEC_P27-1\t1\nmodule\tINTERNAL\t\tIEC_P27-1//\t\tIEC_P27-1\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO_9036//\t\tASMO_449//\nalias\tARABIC7//\t\tASMO_449//\nalias\tISO-IR-89//\t\tASMO_449//\nalias\tCSISO89ASMO449//\tASMO_449//\nmodule\tASMO_449//\t\tINTERNAL\t\tASMO_449\t1\nmodule\tINTERNAL\t\tASMO_449//\t\tASMO_449\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tANSI_X3.110-1983//\tANSI_X3.110//\nalias\tISO-IR-99//\t\tANSI_X3.110//\nalias\tCSA_T500-1983//\t\tANSI_X3.110//\nalias\tCSA_T500//\t\tANSI_X3.110//\nalias\tNAPLPS//\t\tANSI_X3.110//\nalias\tCSISO99NAPLPS//\t\tANSI_X3.110//\nmodule\tANSI_X3.110//\t\tINTERNAL\t\tANSI_X3.110\t1\nmodule\tINTERNAL\t\tANSI_X3.110//\t\tANSI_X3.110\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO-IR-139//\t\tCSN_369103//\nalias\tCSISO139CSN369103//\tCSN_369103//\nmodule\tCSN_369103//\t\tINTERNAL\t\tCSN_369103\t1\nmodule\tINTERNAL\t\tCSN_369103//\t\tCSN_369103\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCWI-2//\t\t\tCWI//\nalias\tCP-HU//\t\t\tCWI//\nmodule\tCWI//\t\t\tINTERNAL\t\tCWI\t\t1\nmodule\tINTERNAL\t\tCWI//\t\t\tCWI\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tDEC//\t\t\tDEC-MCS//\nalias\tCSDECMCS//\t\tDEC-MCS//\nalias\tDECMCS//\t\tDEC-MCS//\nmodule\tDEC-MCS//\t\tINTERNAL\t\tDEC-MCS\t\t1\nmodule\tINTERNAL\t\tDEC-MCS//\t\tDEC-MCS\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO-IR-111//\t\tECMA-CYRILLIC//\nalias\tCSISO111ECMACYRILLIC//\tECMA-CYRILLIC//\nalias\tECMACYRILLIC//\t\tECMA-CYRILLIC//\nmodule\tECMA-CYRILLIC//\t\tINTERNAL\t\tECMA-CYRILLIC\t1\nmodule\tINTERNAL\t\tECMA-CYRILLIC//\t\tECMA-CYRILLIC\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tST_SEV_358-88//\t\tGOST_19768-74//\nalias\tGOST_19768//\t\tGOST_19768-74//\nalias\tISO-IR-153//\t\tGOST_19768-74//\nalias\tCSISO153GOST1976874//\tGOST_19768-74//\nalias\tGOST_1976874//\t\tGOST_19768-74//\nmodule"..., 4096) = 4096
+brk(0x98f000)                           = 0x98f000
+read(3, "st\nalias\tISO-IR-55//\t\tISO_5428//\nalias\tISO_5428:1980//\t\tISO_5428//\nalias\tCSISO5428GREEK//\tISO_5428//\nmodule\tISO_5428//\t\tINTERNAL\t\tISO_5428\t1\nmodule\tINTERNAL\t\tISO_5428//\t\tISO_5428\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO-IR-155//\t\tISO_10367-BOX//\nalias\tCSISO10367BOX//\t\tISO_10367-BOX//\nalias\tISO_10367BOX//\t\tISO_10367-BOX//\nmodule\tISO_10367-BOX//\t\tINTERNAL\t\tISO_10367-BOX\t1\nmodule\tINTERNAL\t\tISO_10367-BOX//\t\tISO_10367-BOX\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tMACIS//\t\t\tMAC-IS//\nmodule\tMAC-IS//\t\tINTERNAL\t\tMAC-IS\t\t1\nmodule\tINTERNAL\t\tMAC-IS//\t\tMAC-IS\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tMACUK//\t\t\tMAC-UK//\nalias\tMACUKRAINIAN//\t\tMAC-UK//\nalias\tMAC-CYRILLIC//\t\tMAC-UK//\nalias\tMACCYRILLIC//\t\tMAC-UK//\nmodule\tMAC-UK//\t\tINTERNAL\t\tMAC-UK\t\t1\nmodule\tINTERNAL\t\tMAC-UK//\t\tMAC-UK\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tMS-MAC-CYRILLIC//\tCP10007//\nalias\tMSMACCYRILLIC//\t\tCP10007//\nmodule\tCP10007//\t\tINTERNAL\t\tCP10007\t\t1\nmodule\tINTERNAL\t\tCP10007//\t\tCP10007\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO-IR-9-1//\t\tNATS-DANO//\nalias\tCSNATSDANO//\t\tNATS-DANO//\nalias\tNATSDANO//\t\tNATS-DANO//\nmodule\tNATS-DANO//\t\tINTERNAL\t\tNATS-DANO\t1\nmodule\tINTERNAL\t\tNATS-DANO//\t\tNATS-DANO\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO-IR-8-1//\t\tNATS-SEFI//\nalias\tCSNATSSEFI//\t\tNATS-SEFI//\nalias\tNATSSEFI//\t\tNATS-SEFI//\nmodule\tNATS-SEFI//\t\tINTERNAL\t\tNATS-SEFI\t1\nmodule\tINTERNAL\t\tNATS-SEFI//\t\tNATS-SEFI\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tWS2//\t\t\tWIN-SAMI-2//\nalias\tWINSAMI2//\t\tWIN-SAMI-2//\nmodule\tWIN-SAMI-2//\t\tINTERNAL\t\tSAMI-WS2\t1\nmodule\tINTERNAL\t\tWIN-SAMI-2//\t\tSAMI-WS2\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nmodule\tISO-IR-197//\t\tINTERNAL\t\tISO-IR-197\t1\nmodule\tINTERNAL\t\tISO-IR-197//\t\tISO-IR-197\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tTIS620//\t\tTIS-620//\nalias\tTIS620-0//\t\tTIS-620//\nalias\tTIS620.2529-1//\t\tTIS-620//\nalias\tTIS620.2533-0//\t\tTIS-620//\nalias\tISO-IR-166//\t\tTIS-620//\nmodule\tTIS-620//\t\tINTERNAL\t\tTIS-620\t\t1\nmodule\tINTERNAL\t\tTIS-620//\t\tTIS-620\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tKOI8U//\t\t\tKOI8-U//\nmodule\tKOI8-U//\t\tINTERNAL\t\tKOI8-U\t\t1\nmodule\tINTERNAL\t\tKOI8-U//\t\tKOI8-U\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcos"..., 4096) = 4096
+read(3, "\tARMSCII-8//\t\tARMSCII-8\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tTCVN//\t\t\tTCVN5712-1//\nalias\tTCVN-5712//\t\tTCVN5712-1//\nalias\tTCVN5712-1:1993//\tTCVN5712-1//\nmodule\tTCVN5712-1//\t\tINTERNAL\t\tTCVN5712-1\t1\nmodule\tINTERNAL\t\tTCVN5712-1//\t\tTCVN5712-1\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nmodule\tEUC-JISX0213//\t\tINTERNAL\t\tEUC-JISX0213\t1\nmodule\tINTERNAL\t\tEUC-JISX0213//\t\tEUC-JISX0213\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nmodule\tShift_JISX0213//\tINTERNAL\t\tSHIFT_JISX0213\t1\nmodule\tINTERNAL\t\tShift_JISX0213//\tSHIFT_JISX0213\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nmodule\tTSCII//\t\t\tINTERNAL\t\tTSCII\t\t1\nmodule\tINTERNAL\t\tTSCII//\t\t\tTSCII\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nmodule\tPT154//\t\t\tINTERNAL\t\tPT154\t\t1\nmodule\tINTERNAL\t\tPT154//\t\t\tPT154\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tSTRK1048-2002//\t\tRK1048//\nmodule\tRK1048//\t\tINTERNAL\t\tRK1048\t\t1\nmodule\tINTERNAL\t\tRK1048//\t\tRK1048\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1025//\t\tIBM1025//\nalias\tCP1025//\t\tIBM1025//\nalias\tCSIBM1025//\t\tIBM1025//\nmodule\tIBM1025//\t\tINTERNAL\t\tIBM1025\t\t1\nmodule\tINTERNAL\t\tIBM1025//\t\tIBM1025\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1122//\t\tIBM1122//\nalias\tCP1122//\t\tIBM1122//\nalias\tCSIBM1122//\t\tIBM1122//\nmodule\tIBM1122//\t\tINTERNAL\t\tIBM1122\t\t1\nmodule\tINTERNAL\t\tIBM1122//\t\tIBM1122\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1137//\t\tIBM1137//\nalias\tCP1137//\t\tIBM1137//\nalias\tCSIBM1137//\t\tIBM1137//\nmodule\tIBM1137//\t\tINTERNAL\t\tIBM1137\t\t1\nmodule\tINTERNAL\t\tIBM1137//\t\tIBM1137\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1153//\t\tIBM1153//\nalias\tCP1153//\t\tIBM1153//\nalias\tCSIBM1153//\t\tIBM1153//\nmodule\tIBM1153//\t\tINTERNAL\t\tIBM1153\t\t1\nmodule\tINTERNAL\t\tIBM1153//\t\tIBM1153\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1154//\t\tIBM1154//\nalias\tCP1154//\t\tIBM1154//\nalias\tCSIBM1154//\t\tIBM1154//\nmodule\tIBM1154//\t\tINTERNAL\t\tIBM1154\t\t1\nmodule\tINTERNAL\t\tIBM1154//\t\tIBM1154\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1155//\t\tIBM1155//\nalias\tCP1155//\t\tIBM1155//\nalias\tCSIBM1155//\t\tIBM1155//\nmodule\tIBM1155//\t\tINTERNAL\t\tIBM1155\t\t1\nmodule\tINTERNAL\t\tIBM1155//\t\tIBM1155\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1155//\t\tIBM1155//\nalias\tCP1155//\t\tIBM1155//\nalias"..., 4096) = 4096
+read(3, "2//\t\tIBM1112\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1123//\t\tIBM1123//\nalias\tCP1123//\t\tIBM1123//\nalias\tCSIBM1123//\t\tIBM1123//\nmodule\tIBM1123//\t\tINTERNAL\t\tIBM1123\t\t1\nmodule\tINTERNAL\t\tIBM1123//\t\tIBM1123\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1130//\t\tIBM1130//\nalias\tCP1130//\t\tIBM1130//\nalias\tCSIBM1130//\t\tIBM1130//\nmodule\tIBM1130//\t\tINTERNAL\t\tIBM1130\t\t1\nmodule\tINTERNAL\t\tIBM1130//\t\tIBM1130\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1140//\t\tIBM1140//\nalias\tCP1140//\t\tIBM1140//\nalias\tCSIBM1140//\t\tIBM1140//\nmodule\tIBM1140//\t\tINTERNAL\t\tIBM1140\t\t1\nmodule\tINTERNAL\t\tIBM1140//\t\tIBM1140\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1141//\t\tIBM1141//\nalias\tCP1141//\t\tIBM1141//\nalias\tCSIBM1141//\t\tIBM1141//\nmodule\tIBM1141//\t\tINTERNAL\t\tIBM1141\t\t1\nmodule\tINTERNAL\t\tIBM1141//\t\tIBM1141\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1142//\t\tIBM1142//\nalias\tCP1142//\t\tIBM1142//\nalias\tCSIBM1142//\t\tIBM1142//\nmodule\tIBM1142//\t\tINTERNAL\t\tIBM1142\t\t1\nmodule\tINTERNAL\t\tIBM1142//\t\tIBM1142\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1143//\t\tIBM1143//\nalias\tCP1143//\t\tIBM1143//\nalias\tCSIBM1143//\t\tIBM1143//\nmodule\tIBM1143//\t\tINTERNAL\t\tIBM1143\t\t1\nmodule\tINTERNAL\t\tIBM1143//\t\tIBM1143\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1144//\t\tIBM1144//\nalias\tCP1144//\t\tIBM1144//\nalias\tCSIBM1144//\t\tIBM1144//\nmodule\tIBM1144//\t\tINTERNAL\t\tIBM1144\t\t1\nmodule\tINTERNAL\t\tIBM1144//\t\tIBM1144\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1145//\t\tIBM1145//\nalias\tCP1145//\t\tIBM1145//\nalias\tCSIBM1145//\t\tIBM1145//\nmodule\tIBM1145//\t\tINTERNAL\t\tIBM1145\t\t1\nmodule\tINTERNAL\t\tIBM1145//\t\tIBM1145\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1146//\t\tIBM1146//\nalias\tCP1146//\t\tIBM1146//\nalias\tCSIBM1146//\t\tIBM1146//\nmodule\tIBM1146//\t\tINTERNAL\t\tIBM1146\t\t1\nmodule\tINTERNAL\t\tIBM1146//\t\tIBM1146\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1147//\t\tIBM1147//\nalias\tCP1147//\t\tIBM1147//\nalias\tCSIBM1147//\t\tIBM1147//\nmodule\tIBM1147//\t\tINTERNAL\t\tIBM1147\t\t1\nmodule\tINTERNAL\t\tIBM1147//\t\tIBM1147\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1148//\t\tIBM1148//\nalias\tCP1148//\t\tIBM1148//\nalias\tCSIBM1148//\t\tIBM1148//\nmodule\tIBM1148//\t\tINTERNAL\t\tIBM"..., 4096) = 4096
+read(3, "module\tIBM9448//\t\tINTERNAL\t\tIBM9448\t\t1\nmodule\tINTERNAL\t\tIBM9448//\t\tIBM9448\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-12712//\t\tIBM12712//\nalias\tCP12712//\t\tIBM12712//\nalias\tCSIBM12712//\t\tIBM12712//\nmodule\tIBM12712//\t\tINTERNAL\t\tIBM12712\t\t1\nmodule\tINTERNAL\t\tIBM12712//\t\tIBM12712\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-16804//\t\tIBM16804//\nalias\tCP16804//\t\tIBM16804//\nalias\tCSIBM16804//\t\tIBM16804//\nmodule\tIBM16804//\t\tINTERNAL\t\tIBM16804\t\t1\nmodule\tINTERNAL\t\tIBM16804//\t\tIBM16804\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1364//\t\tIBM1364//\nalias\tCP1364//\t\tIBM1364//\nalias\tCSIBM1364//\t\tIBM1364//\nmodule\tIBM1364//\t\tINTERNAL\t\tIBM1364\t\t1\nmodule\tINTERNAL\t\tIBM1364//\t\tIBM1364\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1371//\t\tIBM1371//\nalias\tCP1371//\t\tIBM1371//\nalias\tCSIBM1371//\t\tIBM1371//\nmodule\tIBM1371//\t\tINTERNAL\t\tIBM1371\t\t1\nmodule\tINTERNAL\t\tIBM1371//\t\tIBM1371\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1388//\t\tIBM1388//\nalias\tCP1388//\t\tIBM1388//\nalias\tCSIBM1388//\t\tIBM1388//\nmodule\tIBM1388//\t\tINTERNAL\t\tIBM1388\t\t1\nmodule\tINTERNAL\t\tIBM1388//\t\tIBM1388\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1390//\t\tIBM1390//\nalias\tCP1390//\t\tIBM1390//\nalias\tCSIBM1390//\t\tIBM1390//\nmodule\tIBM1390//\t\tINTERNAL\t\tIBM1390\t\t1\nmodule\tINTERNAL\t\tIBM1390//\t\tIBM1390\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tIBM-1399//\t\tIBM1399//\nalias\tCP1399//\t\tIBM1399//\nalias\tCSIBM1399//\t\tIBM1399//\nmodule\tIBM1399//\t\tINTERNAL\t\tIBM1399\t\t1\nmodule\tINTERNAL\t\tIBM1399//\t\tIBM1399\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tISO/TR_11548-1/\t\tISO_11548-1//\nalias\tISO11548-1//\t\tISO_11548-1//\nmodule\tISO_11548-1//\t\tINTERNAL\t\tISO_11548-1\t1\nmodule\tINTERNAL\t\tISO_11548-1//\t\tISO_11548-1\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nmodule\tMIK//\t\t\tINTERNAL\t\tMIK\t\t1\nmodule\tINTERNAL\t\tMIK//\t\t\tMIK\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nmodule\tBRF//\t\t\tINTERNAL\t\tBRF\t\t1\nmodule\tINTERNAL\t\tBRF//\t\t\tBRF\t\t1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nalias\tCP1282//\t\tMAC-CENTRALEUROPE//\nmodule\tMAC-CENTRALEUROPE//\tINTERNAL\t\tMAC-CENTRALEUROPE 1\nmodule\tINTERNAL\t\tMAC-CENTRALEUROPE//\tMAC-CENTRALEUROPE 1\n\n#\tfrom\t\t\tto\t\t\tmodule\t\tcost\nmodule\tKOI8-RU//\t\tINTERNAL\t\tKOI8-RU\t\t1\nmodule\t"..., 4096) = 3054
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f9caeb70000, 4096)            = 0
+getppid()                               = 10304
+getpgrp()                               = 10304
+rt_sigaction(SIGCHLD, {0x43b240, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, 8) = 0
+getrlimit(RLIMIT_NPROC, {rlim_cur=46829, rlim_max=46829}) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+open("/usr/bin/ant", O_RDONLY)          = 3
+ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff4ef21810) = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "#! /bin/sh\n\n# Licensed to the Apache Software Foundation (ASF) under one or more", 80) = 80
+lseek(3, 0, SEEK_SET)                   = 0
+getrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=4*1024}) = 0
+fcntl(255, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+dup2(3, 255)                            = 255
+close(3)                                = 0
+fcntl(255, F_SETFD, FD_CLOEXEC)         = 0
+fcntl(255, F_GETFL)                     = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(255, {st_mode=S_IFREG|0755, st_size=10175, ...}) = 0
+lseek(255, 0, SEEK_CUR)                 = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+read(255, "#! /bin/sh\n\n# Licensed to the Apache Software Foundation (ASF) under one or more\n# contributor license agreements.  See the NOTICE file distributed with\n# this work for additional information regarding copyright ownership.\n# The ASF licenses this file to You under the Apache License, Version 2.0\n# (the \"License\"); you may not use this file except in compliance with\n# the License.  You may obtain a copy of the License at\n#\n#     http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n\n# Extract launch and ant arguments, (see details below).\nant_exec_args=\nno_config=false\nuse_jikes_default=false\nant_exec_debug=false\nshow_help=false\nfor arg in \"$@\" ; do\n  if [ \"$arg\" = \"--noconfig\" ] ; then\n    no_config=true\n  elif [ \"$arg\" = \"--usejikes\" ] ; then\n    use_jikes_default=true\n  elif [ \"$arg\" = \"--execdebug\" ] ; then\n    ant_exec_debug=true\n  elif [ my\"$arg\" = my\"--h\"  -o my\"$arg\" = my\"--help\"  ] ; then\n    show_help=true\n    ant_exec_args=\"$ant_exec_args -h\"\n  else\n    if [  my\"$arg\" = my\"-h\"  -o  my\"$arg\" = my\"-help\" ] ; then\n      show_help=true\n    fi\n    ant_exec_args=\"$ant_exec_args \\\"$arg\\\"\"\n  fi\ndone\n\n# Source/default ant configuration\nif $no_config ; then\n  rpm_mode=false\n  usejikes=$use_jikes_default\nelse\n  # load system-wide ant configuration (ONLY if ANT_HOME has NOT been set)\n  if [ -z \"$ANT_HOME\" -o \"$ANT_HOME\" = \"/usr/share/ant\" ]; then\n      if [ -f \"/etc/ant.conf\" ] ; then\n          . /etc/ant.conf\n      fi\n  fi\n\n  # load user ant configuration\n  if [ -f \"$HOME/.ant/ant.conf\" ] ; then\n    . $HOME/.ant/ant.conf\n  fi\n  if [ -f \"$HOME/.antrc\" ] ; then\n    . \"$HOME/.antrc\"\n  fi\n\n  # provide default configuration values\n  if [ -z \"$rpm_mode\" ] ; then\n    rpm_mode=false\n  fi\n  if [ -z \"$usejikes\" ] ; then\n  "..., 8192) = 8192
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+stat("/etc/ant.conf", 0x7fff4ef20e60)   = -1 ENOENT (No such file or directory)
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+stat("/home/squareduck/.ant/ant.conf", 0x7fff4ef20f80) = -1 ENOENT (No such file or directory)
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+stat("/home/squareduck/.antrc", 0x7fff4ef21080) = -1 ENOENT (No such file or directory)
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+pipe([3, 4])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+lseek(255, -5307, SEEK_CUR)             = 2885
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9caeb3f9d0) = 10308
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {0x43b240, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, {0x43b240, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, 8) = 0
+close(4)                                = 0
+read(3, "Linux\n", 128)                 = 6
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10308, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10308
+wait4(-1, 0x7fff4ef20dd8, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigreturn()                          = 6
+read(3, "", 128)                        = 0
+close(3)                                = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {0x438840, [], SA_RESTORER, 0x7f9cadf2f240}, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, {0x438840, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+read(255, "\nif [ -z \"$ANT_HOME\" -o ! -d \"$ANT_HOME\" ] ; then\n  ## resolve links - $0 may be a link to ant's home\n  PRG=\"$0\"\n  progname=`basename \"$0\"`\n\n  # need this for relative symlinks\n  while [ -h \"$PRG\" ] ; do\n    ls=`ls -ld \"$PRG\"`\n    link=`expr \"$ls\" : '.*-> \\(.*\\)$'`\n    if expr \"$link\" : '/.*' > /dev/null; then\n    PRG=\"$link\"\n    else\n    PRG=`dirname \"$PRG\"`\"/$link\"\n    fi\n  done\n\n  ANT_HOME=`dirname \"$PRG\"`/..\n\n  # make it fully qualified\n  ANT_HOME=`cd \"$ANT_HOME\" > /dev/null && pwd`\nfi\n\n# For Cygwin and Mingw, ensure paths are in UNIX format before\n# anything is touched\nif $cygwin ; then\n  [ -n \"$ANT_HOME\" ] &&\n    ANT_HOME=`cygpath --unix \"$ANT_HOME\"`\n  [ -n \"$JAVA_HOME\" ] &&\n    JAVA_HOME=`cygpath --unix \"$JAVA_HOME\"`\nfi\nif $mingw ; then\n  [ -n \"$ANT_HOME\" ] &&\n    ANT_HOME=\"`(cd \"$ANT_HOME\"; pwd)`\"\n  [ -n \"$JAVA_HOME\" ] &&\n    JAVA_HOME=\"`(cd \"$JAVA_HOME\"; pwd)`\"\nfi\n\n# set ANT_LIB location\nANT_LIB=\"${ANT_HOME}/lib\"\n\nif [ -z \"$JAVACMD\" ] ; then\n  if [ -n \"$JAVA_HOME\"  ] ; then\n    # IBM's JDK on AIX uses strange locations for the executables\n    if [ -x \"$JAVA_HOME/jre/sh/java\" ] ; then\n      JAVACMD=\"$JAVA_HOME/jre/sh/java\"\n    elif [ -x \"$JAVA_HOME/jre/bin/java\" ] ; then\n      JAVACMD=\"$JAVA_HOME/jre/bin/java\"\n    else\n      JAVACMD=\"$JAVA_HOME/bin/java\"\n    fi\n  else\n    JAVACMD=`which java 2> /dev/null `\n    if [ -z \"$JAVACMD\" ] ; then\n        JAVACMD=java\n    fi\n  fi\nfi\n\nif [ ! -x \"$JAVACMD\" ] ; then\n  echo \"Error: JAVA_HOME is not defined correctly.\"\n  echo \"  We cannot execute $JAVACMD\"\n  exit 1\nfi\n\n# Build local classpath using just the launcher in non-rpm mode or\n# use the Jpackage helper in rpm mode with basic and default jars\n# specified in the ant.conf configuration. Because the launcher is\n# used, libraries linked in ANT_HOME/lib will also be included, but this\n# is discouraged as it is not java-version safe. A user should\n# request optional jars and their dependencies via the OPT_JAR_LIST\n# variable\nif $rpm_mode && [ -x /usr/bin/build-classpath ] ; then\n  LOCALCLASSPATH=\"$(/usr/bin/build-class"..., 8192) = 7290
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+pipe([3, 4])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+lseek(255, -6795, SEEK_CUR)             = 3380
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9caeb3f9d0) = 10309
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {0x43b240, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, {0x43b240, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, 8) = 0
+close(4)                                = 0
+read(3, "ant\n", 128)                   = 4
+read(3, "", 128)                        = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10309, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10309
+wait4(-1, 0x7fff4ef20818, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigreturn()                          = 0
+close(3)                                = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {0x438840, [], SA_RESTORER, 0x7f9cadf2f240}, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, {0x438840, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+lstat("/usr/bin/ant", {st_mode=S_IFLNK|0777, st_size=29, ...}) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+pipe([3, 4])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9caeb3f9d0) = 10310
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {0x43b240, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, {0x43b240, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, 8) = 0
+close(4)                                = 0
+read(3, "lrwxrwxrwx 1 root root 29 May 22 23:34 /usr/bin/ant -> /usr/share/apache-ant/bin/ant\n", 128) = 85
+read(3, "", 128)                        = 0
+close(3)                                = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10310, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10310
+wait4(-1, 0x7fff4ef20618, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigreturn()                          = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {0x438840, [], SA_RESTORER, 0x7f9cadf2f240}, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, {0x438840, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+pipe([3, 4])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9caeb3f9d0) = 10311
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {0x43b240, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, {0x43b240, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, 8) = 0
+close(4)                                = 0
+read(3, "/usr/share/apache-ant/bin/ant\n", 128) = 30
+read(3, "", 128)                        = 0
+close(3)                                = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10311, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10311
+wait4(-1, 0x7fff4ef20618, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigreturn()                          = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {0x438840, [], SA_RESTORER, 0x7f9cadf2f240}, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, {0x438840, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/squareduck/.rvm/gems/ruby-1.9.3-p429/bin/expr", 0x7fff4ef20e10) = -1 ENOENT (No such file or directory)
+stat("/home/squareduck/.rvm/gems/ruby-1.9.3-p429@global/bin/expr", 0x7fff4ef20e10) = -1 ENOENT (No such file or directory)
+stat("/home/squareduck/.rvm/rubies/ruby-1.9.3-p429/bin/expr", 0x7fff4ef20e10) = -1 ENOENT (No such file or directory)
+stat("/home/squareduck/.rvm/bin/expr", 0x7fff4ef20e10) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/qt4/bin/expr", 0x7fff4ef20e10) = -1 ENOENT (No such file or directory)
+stat("/usr/local/sbin/expr", 0x7fff4ef20e10) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/expr", 0x7fff4ef20e10) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/expr", {st_mode=S_IFREG|0755, st_size=105256, ...}) = 0
+stat("/usr/bin/expr", {st_mode=S_IFREG|0755, st_size=105256, ...}) = 0
+geteuid()                               = 1000
+getegid()                               = 100
+getuid()                                = 1000
+getgid()                                = 100
+access("/usr/bin/expr", X_OK)           = 0
+stat("/usr/bin/expr", {st_mode=S_IFREG|0755, st_size=105256, ...}) = 0
+geteuid()                               = 1000
+getegid()                               = 100
+getuid()                                = 1000
+getgid()                                = 100
+access("/usr/bin/expr", R_OK)           = 0
+stat("/usr/bin/expr", {st_mode=S_IFREG|0755, st_size=105256, ...}) = 0
+stat("/usr/bin/expr", {st_mode=S_IFREG|0755, st_size=105256, ...}) = 0
+geteuid()                               = 1000
+getegid()                               = 100
+getuid()                                = 1000
+getgid()                                = 100
+access("/usr/bin/expr", X_OK)           = 0
+stat("/usr/bin/expr", {st_mode=S_IFREG|0755, st_size=105256, ...}) = 0
+geteuid()                               = 1000
+getegid()                               = 100
+getuid()                                = 1000
+getgid()                                = 100
+access("/usr/bin/expr", R_OK)           = 0
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [INT CHLD], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [INT CHLD], NULL, 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9caeb3f9d0) = 10312
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {0x438840, [], SA_RESTORER, 0x7f9cadf2f240}, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 10312
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10312, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, 0x7fff4ef20918, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigreturn()                          = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, {0x438840, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+lstat("/usr/share/apache-ant/bin/ant", {st_mode=S_IFREG|0755, st_size=10175, ...}) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+pipe([3, 4])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9caeb3f9d0) = 10313
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {0x43b240, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, {0x43b240, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, 8) = 0
+close(4)                                = 0
+read(3, "/usr/share/apache-ant/bin\n", 128) = 26
+read(3, "", 128)                        = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10313, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10313
+wait4(-1, 0x7fff4ef20a18, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigreturn()                          = 0
+close(3)                                = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {0x438840, [], SA_RESTORER, 0x7f9cadf2f240}, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, {0x438840, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+pipe([3, 4])                            = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f9caeb3f9d0) = 10314
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {0x43b240, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, {0x43b240, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, 8) = 0
+close(4)                                = 0
+read(3, "/usr/share/apache-ant\n", 128) = 22
+read(3, "", 128)                        = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=10314, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 10314
+wait4(-1, 0x7fff4ef20b18, WNOHANG, NULL) = -1 ECHILD (No child processes)
+rt_sigreturn()                          = 0
+close(3)                                = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {0x438840, [], SA_RESTORER, 0x7f9cadf2f240}, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, {0x438840, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+read(255, "\n# For Cygwin and Mingw, ensure paths are in UNIX format before\n# anything is touched\nif $cygwin ; then\n  [ -n \"$ANT_HOME\" ] &&\n    ANT_HOME=`cygpath --unix \"$ANT_HOME\"`\n  [ -n \"$JAVA_HOME\" ] &&\n    JAVA_HOME=`cygpath --unix \"$JAVA_HOME\"`\nfi\nif $mingw ; then\n  [ -n \"$ANT_HOME\" ] &&\n    ANT_HOME=\"`(cd \"$ANT_HOME\"; pwd)`\"\n  [ -n \"$JAVA_HOME\" ] &&\n    JAVA_HOME=\"`(cd \"$JAVA_HOME\"; pwd)`\"\nfi\n\n# set ANT_LIB location\nANT_LIB=\"${ANT_HOME}/lib\"\n\nif [ -z \"$JAVACMD\" ] ; then\n  if [ -n \"$JAVA_HOME\"  ] ; then\n    # IBM's JDK on AIX uses strange locations for the executables\n    if [ -x \"$JAVA_HOME/jre/sh/java\" ] ; then\n      JAVACMD=\"$JAVA_HOME/jre/sh/java\"\n    elif [ -x \"$JAVA_HOME/jre/bin/java\" ] ; then\n      JAVACMD=\"$JAVA_HOME/jre/bin/java\"\n    else\n      JAVACMD=\"$JAVA_HOME/bin/java\"\n    fi\n  else\n    JAVACMD=`which java 2> /dev/null `\n    if [ -z \"$JAVACMD\" ] ; then\n        JAVACMD=java\n    fi\n  fi\nfi\n\nif [ ! -x \"$JAVACMD\" ] ; then\n  echo \"Error: JAVA_HOME is not defined correctly.\"\n  echo \"  We cannot execute $JAVACMD\"\n  exit 1\nfi\n\n# Build local classpath using just the launcher in non-rpm mode or\n# use the Jpackage helper in rpm mode with basic and default jars\n# specified in the ant.conf configuration. Because the launcher is\n# used, libraries linked in ANT_HOME/lib will also be included, but this\n# is discouraged as it is not java-version safe. A user should\n# request optional jars and their dependencies via the OPT_JAR_LIST\n# variable\nif $rpm_mode && [ -x /usr/bin/build-classpath ] ; then\n  LOCALCLASSPATH=\"$(/usr/bin/build-classpath ant ant-launcher jaxp_parser_impl xml-commons-apis)\"\n\n  # If no optional jars have been specified then build the default list\n  if [ -z \"$OPT_JAR_LIST\" ] ; then\n    for file in /etc/ant.d/*; do\n      if [ -f \"$file\" ]; then\n        case \"$file\" in\n        *~) ;;\n        *#*) ;;\n        *.rpmsave) ;;\n        *.rpmnew) ;;\n        *)\n          for dep in `cat \"$file\"`; do\n            OPT_JAR_LIST=\"$OPT_JAR_LIST${OPT_JAR_LIST:+ }$dep\"\n          done\n        esac\n      fi\n    done\n  fi\n\n  #"..., 8192) = 6795
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+faccessat(AT_FDCWD, "/usr/lib/jvm/java-7-openjdk/jre/sh/java", X_OK) = -1 ENOENT (No such file or directory)
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+faccessat(AT_FDCWD, "/usr/lib/jvm/java-7-openjdk/jre/bin/java", X_OK) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+faccessat(AT_FDCWD, "/usr/lib/jvm/java-7-openjdk/jre/bin/java", X_OK) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f9cadf2f240}, {SIG_IGN, [], SA_RESTORER, 0x7f9cadf2f240}, 8) = 0
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, {0x43b240, [], SA_RESTORER|SA_RESTART, 0x7f9cadf2f240}, 8) = 0
+execve("/usr/lib/jvm/java-7-openjdk/jre/bin/java", ["/usr/lib/jvm/java-7-openjdk/jre/bin/java", "-classpath", "/usr/share/apache-ant/lib/ant-launcher.jar", "-Dant.home=/usr/share/apache-ant", "-Dant.library.dir=/usr/share/apache-ant/lib", "org.apache.tools.ant.launch.Launcher", "-cp", "", "debug"], [/* 56 vars */]) = 0
+brk(0)                                  = 0x1e8b000
+readlink("/proc/self/exe", "/usr/lib/jvm/java-7-openjdk/jre/bin/java", 4096) = 40
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2d790c2000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/tls/x86_64", 0x7fff38f0e610) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/tls", 0x7fff38f0e610) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/x86_64", 0x7fff38f0e610) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/jli/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/jli/tls/x86_64", 0x7fff38f0e610) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/jli/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/jli/tls", 0x7fff38f0e610) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/jli/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/jli/x86_64", 0x7fff38f0e610) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/jli/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/jli", 0x7fff38f0e610) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/tls/x86_64", 0x7fff38f0e610) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/tls", 0x7fff38f0e610) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/x86_64", 0x7fff38f0e610) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/tls/x86_64", 0x7fff38f0e610) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/tls", 0x7fff38f0e610) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/x86_64", 0x7fff38f0e610) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../jre/lib/amd64", 0x7fff38f0e610) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=186303, ...}) = 0
+mmap(NULL, 186303, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2d79094000
+close(3)                                = 0
+open("/usr/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0Pl\0\0\0\0\0\0@\0\0\0\0\0\0\0\0t\1\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0#\0 \0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0@\23\1\0\0\0\0\0@\23\1\0\0\0\0\0@\23\1\0\0\0\0\0\36\0\0\0\0\0\0\0\36\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\350f\1\0\0\0\0\0\350f\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\250k\1\0\0\0\0\0\250k!\0\0\0\0\0\250k!\0\0\0\0\0\350\6\0\0\0\0\0\0\10H\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0pm\1\0\0\0\0\0pm!\0\0\0\0\0pm!\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0`\23\1\0\0\0\0\0`\23\1\0\0\0\0\0`\23\1\0\0\0\0\0004\n\0\0\0\0\0\0004\n\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0R\345td\4\0\0\0\250k\1\0\0\0\0\0\250k!\0\0\0\0\0\250k!\0\0\0\0\0X\4\0\0\0\0\0\0X\4\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0004\371\304\306V\2443\331\177\36\225I[\304\0\361\332\316v7\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0\2\0\0\0\6\0\0\0 \0\0\0\0\0\0\0\345\1\0\0Q\0\0\0 \0\0\0\v\0\0\0\31#\2\261\1\10\20\2@@a\370\3\10\10\25\200 \0\0\0\0\200\300\321Q\0\0\0\22\353\3020D\0\10\20A\0\2\0\2\f\1\200\v\221\1\330\240\r\240@\230 \244\200\21\n\202-l@g\214V\24\0\224 \200$H\200P(\1\22\f\311B\240\220\22\10\f \2ZdA\245c\4@\n\n\2\0\2009\1(\314@\204\201@\22\10(\fD\0\0\0\200Q\10\200\35\4B\320\2608A\0\1\0\0\265\0300\0\200`\2\20\"\0\tA\20\1\5\0P(\251\2\7(\0\0\202\4\230@\4\0\20\340T\0\2@\2\2\20\3010D\26\200\0", 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=138237, ...}) = 0
+mmap(NULL, 2208688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2d78c86000
+mprotect(0x7f2d78c9d000, 2093056, PROT_NONE) = 0
+mmap(0x7f2d78e9c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f2d78e9c000
+mmap(0x7f2d78e9e000, 13232, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2d78e9e000
+close(3)                                = 0
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/libjli.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0$\0\0\0\0\0\0@\0\0\0\0\0\0\0H\307\0\0\0\0\0\0\0\0\0\0@\0008\0\6\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\254\300\0\0\0\0\0\0\254\300\0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\260\300\0\0\0\0\0\0\260\300 \0\0\0\0\0\260\300 \0\0\0\0\0\210\5\0\0\0\0\0\0\250\7\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\350\300\0\0\0\0\0\0\350\300 \0\0\0\0\0\350\300 \0\0\0\0\0P\2\0\0\0\0\0\0P\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\220\1\0\0\0\0\0\0\220\1\0\0\0\0\0\0\220\1\0\0\0\0\0\0$\0\0\0\0\0\0\0$\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0h\260\0\0\0\0\0\0h\260\0\0\0\0\0\0h\260\0\0\0\0\0\0\234\2\0\0\0\0\0\0\234\2\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\321\257T\225\301\315\1773\351!\16\311R\260#\255\216\355\314\212\0\0\0\0\262\0\0\0b\0\0\0\36\0\0\0=\0\0\0\0\0\0\0\0\0\0\0@\0\0\0\23\0\0\0\27\0\0\0007\0\0\0\0\0\0\0\f\0\0\0\22\0\0\0J\0\0\0\4\0\0\0Q\0\0\0005\0\0\0\0\0\0\0\0\0\0\0C\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0008\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0A\0\0\0D\0\0\0\0\0\0\0\t\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0U\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0O\0\0\0\31\0\0\0\0\0\0\0:\0\0\0\0\0\0\0L\0\0\0\0\0\0\0-\0\0\0\0\0\0\0\26\0\0\0004\0\0\0)\0\0\0\0\0\0\0\0\0\0\0V\0\0\0S\0\0\0E\0\0\0G\0\0\0\0\0\0\0+\0\0\0\0\0\0\0B\0\0\0\0\0\0\0M\0\0\0_\0\0\0T\0\0\0X\0\0\0\33\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0Z\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\17\0\0\0!\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0I\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0006\0\0\0\0\0\0\0", 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=52872, ...}) = 0
+mmap(NULL, 2148440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2d78a79000
+mprotect(0x7f2d78a86000, 2093056, PROT_NONE) = 0
+mmap(0x7f2d78c85000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7f2d78c85000
+close(3)                                = 0
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0@\0\0\0\0\0\0\0\3201\0\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0\36\0\35\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0000\32\0\0\0\0\0\0000\32\0\0\0\0\0\0000\32\0\0\0\0\0\0\36\0\0\0\0\0\0\0\36\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20 \0\0\0\0\0\0\20 \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0@\3\0\0\0\0\0\0\260\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0\210- \0\0\0\0\0\20\2\0\0\0\0\0\0\20\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0P\32\0\0\0\0\0\0P\32\0\0\0\0\0\0P\32\0\0\0\0\0\0\274\0\0\0\0\0\0\0\274\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0R\345td\4\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\240\2\0\0\0\0\0\0\240\2\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0I\276\371\21\257\230c\263U\207\305\251:\22\"h'\373E0\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0\2\0\0\0\6\0\0\0 \0\0\0\0\0\0\0\33\0\0\0\33\0\0\0\2\0\0\0\7\0\0\0\230\2\21\0\200H\0\4\22\0\0@\203(\10\236\33\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\0\0\0\0\35\0\0\0\0\0\0\0\36\0\0\0\0\0\0\0\37\0\0\0\0\0\0\0 \0\0\0\0\0\0\0!\0\0\0#\0\0\0$\0\0\0&\0\0\0'\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0(\0\0\0\0\0\0\0\0\0\0\0\353\26\251\30a\257\0\371\301S\200\30\273\25sB\257\304M\17\221!\374\370\6\2\4\371\3733\373\17\371\31sB\372\31sB\225\263_\31\177\236\320\30a\242\222\6", 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=14672, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2d79093000
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2d78875000
+mprotect(0x7f2d78878000, 2093056, PROT_NONE) = 0
+mmap(0x7f2d78a77000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f2d78a77000
+close(3)                                = 0
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \33\2\0\0\0\0\0@\0\0\0\0\0\0\0\360\210\32\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0%\0\"\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0P\355\26\0\0\0\0\0P\355\26\0\0\0\0\0P\355\26\0\0\0\0\0\36\0\0\0\0\0\0\0\36\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\340)\32\0\0\0\0\0\340)\32\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\3306\32\0\0\0\0\0\3306:\0\0\0\0\0\3306:\0\0\0\0\0`P\0\0\0\0\0\0X\223\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@k\32\0\0\0\0\0@k:\0\0\0\0\0@k:\0\0\0\0\0\360\1\0\0\0\0\0\0\360\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0\7\0\0\0\4\0\0\0\3306\32\0\0\0\0\0\3306:\0\0\0\0\0\3306:\0\0\0\0\0\20\0\0\0\0\0\0\0h\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0P\345td\4\0\0\0p\355\26\0\0\0\0\0p\355\26\0\0\0\0\0p\355\26\0\0\0\0\0Dj\0\0\0\0\0\0Dj\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0R\345td\4\0\0\0\3306\32\0\0\0\0\0\3306:\0\0\0\0\0\3306:\0\0\0\0\0(9\0\0\0\0\0\0(9\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0Q\303\227Q\4\304\313\353\356>\347s^\270\3713,\366OW\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0\2\0\0\0\6\0\0\0 \0\0\0\0\0\0\0\363\3\0\0\t\0\0\0\0\1\0\0\16\0\0\0\0000\20D\240 \2\1\210\3\346\220\305E\214\0\300\0\10\0\5\200\0`\300\200\0\r\212\f\0\4\20\0\210D2\10.@\210P4, \16\"H&\204\300\214\4\10\0\2\2\16\241\254\32\4f\300\0\3002\0\300\0P\1 \201\10\204\v  ($\0\4 P\0\20X\200\312DB(\0\6\200\20\30B\0 @\200\0\tP\0Q\212@\20\0\0\0\0\10\0\0\21\20", 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2035252, ...}) = 0
+mmap(NULL, 3852848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2d784c8000
+mprotect(0x7f2d7866b000, 2097152, PROT_NONE) = 0
+mmap(0x7f2d7886b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a3000) = 0x7f2d7886b000
+mmap(0x7f2d78871000, 14896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2d78871000
+close(3)                                = 0
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/../tls/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/../tls/x86_64", 0x7fff38f0e2b0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/../tls/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/../tls", 0x7fff38f0e2b0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/../x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/../x86_64", 0x7fff38f0e2b0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/../libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/..", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000#\0\0\0\0\0\0@\0\0\0\0\0\0\0(S\1\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\34\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0<G\1\0\0\0\0\0<G\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\260L\1\0\0\0\0\0\260L!\0\0\0\0\0\260L!\0\0\0\0\0P\5\0\0\0\0\0\0X\5\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\320M\1\0\0\0\0\0\320M!\0\0\0\0\0\320M!\0\0\0\0\0\360\1\0\0\0\0\0\0\360\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0$\0\0\0\0\0\0\0$\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0\210+\1\0\0\0\0\0\210+\1\0\0\0\0\0\210+\1\0\0\0\0\0\264\3\0\0\0\0\0\0\264\3\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0R\345td\4\0\0\0\260L\1\0\0\0\0\0\260L!\0\0\0\0\0\260L!\0\0\0\0\0P\3\0\0\0\0\0\0P\3\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0h+\205\362\177.\240\3439\216\10\26m\232\351\214\25qW\30\0\0\0\0\247\0\0\0\27\0\0\0\10\0\0\0\t\0\0\0\0\3h\24\f\3$\24\221\0\223A;\0\16\30\234\1\4DQ\f\0\210,\0\303\"\224\27\212\203\0c0\262G\212PC ,\20\35\210\341\200\213A\220\23e$g\304\201V\0.\20\2\200\0\20\0\0\0\0\27\0\0\0\0\0\0\0\31\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\32\0\0\0\33\0\0\0\0\0\0\0\0\0\0\0\34\0\0\0\35\0\0\0\37\0\0\0\0\0\0\0\0\0\0\0 \0\0\0!\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\"\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0#\0\0\0\0\0\0\0\0\0\0\0$\0\0\0\0\0\0\0%\0\0\0&\0\0\0'\0\0\0\0\0\0\0)\0\0\0*\0\0\0,\0\0\0.\0\0\0\0\0\0\0\0\0\0\0/\0\0\0000\0\0\0001\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0002\0\0\0003\0\0\0\0\0\0\0004\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0005\0\0\0\0\0\0\0\0\0\0\0006\0\0\0\0\0\0\0007\0\0\0008\0\0\0\0\0\0\0", 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=88616, ...}) = 0
+mmap(NULL, 2183688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2d782b2000
+mprotect(0x7f2d782c7000, 2093056, PROT_NONE) = 0
+mmap(0x7f2d784c6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7f2d784c6000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2d79092000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2d79091000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2d79090000
+arch_prctl(ARCH_SET_FS, 0x7f2d79091700) = 0
+mprotect(0x7f2d7886b000, 16384, PROT_READ) = 0
+mprotect(0x7f2d784c6000, 4096, PROT_READ) = 0
+mprotect(0x7f2d78a77000, 4096, PROT_READ) = 0
+mprotect(0x7f2d78e9c000, 4096, PROT_READ) = 0
+mprotect(0x7f2d790c3000, 4096, PROT_READ) = 0
+munmap(0x7f2d79094000, 186303)          = 0
+set_tid_address(0x7f2d790919d0)         = 10307
+set_robust_list(0x7f2d790919e0, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f2d78c8c7a0, [], SA_RESTORER|SA_SIGINFO, 0x7f2d78c950e0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f2d78c8c830, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f2d78c950e0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(0)                                  = 0x1e8b000
+brk(0x1eac000)                          = 0x1eac000
+readlink("/proc/self/exe", "/usr/lib/jvm/java-7-openjdk/jre/bin/java", 4096) = 40
+access("/usr/lib/jvm/java-7-openjdk/jre/lib/amd64/libjava.so", F_OK) = 0
+open("/usr/lib/jvm/java-7-openjdk/jre/lib/amd64/jvm.cfg", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1725, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2d790c1000
+read(3, "# Copyright (c) 2003, Oracle and/or its affiliates. All rights reserved.\n# DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.\n#\n# This code is free software; you can redistribute it and/or modify it\n# under the terms of the GNU General Public License version 2 only, as\n# published by the Free Software Foundation.  Oracle designates this\n# particular file as subject to the \"Classpath\" exception as provided\n# by Oracle in the LICENSE file that accompanied this code.\n#\n# This code is distributed in the hope that it will be useful, but WITHOUT\n# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or\n# FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License\n# version 2 for more details (a copy is included in the LICENSE file that\n# accompanied this code).\n#\n# You should have received a copy of the GNU General Public License version\n# 2 along with this work; if not, write to the Free Software Foundation,\n# Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.\n#\n# Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA\n# or visit www.oracle.com if you need additional information or have any\n# questions.\n#\n# \n# List of JVMs that can be used as an option to java, javac, etc.\n# Order is important -- first in this list is the default JVM.\n# NOTE that this both this file and its format are UNSUPPORTED and\n# WILL GO AWAY in a future release.\n#\n# You may also select a JVM in an arbitrary location with the\n# \"-XXaltjvm=<jvm_dir>\" option, but that too is unsupported\n# and may not be available in a future release.\n#\n-server KNOWN\n-client IGNORE\n-hotspot ERROR\n-classic WARN\n-native ERROR\n-green ERROR\n-cacao ERROR\n-jamvm ERROR\n-zero ERROR\n-shark ERROR\n", 4096) = 1725
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2d790c1000, 4096)            = 0
+stat("/usr/lib/jvm/java-7-openjdk/jre/lib/amd64/server/libjvm.so", {st_mode=S_IFREG|0755, st_size=12253512, ...}) = 0
+futex(0x7f2d78a780c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/usr/lib/jvm/java-7-openjdk/jre/lib/amd64/server/libjvm.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\275\35\0\0\0\0\0@\0\0\0\0\0\0\0\10\362\272\0\0\0\0\0\0\0\0\0@\0008\0\6\0@\0\35\0\34\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\364Q\257\0\0\0\0\0\364Q\257\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\370Q\257\0\0\0\0\0\370Q\317\0\0\0\0\0\370Q\317\0\0\0\0\0\330\236\v\0\0\0\0\0\0t\16\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0@_\270\0\0\0\0\0@_\330\0\0\0\0\0@_\330\0\0\0\0\0@\2\0\0\0\0\0\0@\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\220\1\0\0\0\0\0\0\220\1\0\0\0\0\0\0\220\1\0\0\0\0\0\0$\0\0\0\0\0\0\0$\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0\260\177\232\0\0\0\0\0\260\177\232\0\0\0\0\0\260\177\232\0\0\0\0\0\234\177\3\0\0\0\0\0\234\177\3\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0u_Z$\37\240\"S\261\265\356am\322\272\276y\10\t\330\0\0\0\0u\3\0\0\316\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0I\1\0\0\204\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\216\0\0\0\0\0\0\0\0\0\0\0\16\1\0\0\266\1\0\0\32\0\0\0005\1\0\0\0\0\0\0\312\1\0\0\0\0\0\0\223\0\0\0E\0\0\0001\0\0\0\0\0\0\0\177\1\0\0\314\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\226\0\0\0\240\1\0\0\0\0\0\0q\0\0\0\277\0\0\0\0\0\0\0\0\0\0\0\250\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\21\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\364\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\207\1\0\0/\0\0\0\10\1\0\0e\1\0\0\0\0\0\0\7\0\0\0\226\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\37\1\0\0F\1\0\0\373\0\0\0[\1\0\0l\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0F\0\0\0\31\0\0\0\0\0\0\0B\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\25\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\276\0\0\0\36\1\0\0\0\0\0\0", 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=12253512, ...}) = 0
+mmap(NULL, 14534136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2d774d5000
+mprotect(0x7f2d77fcb000, 2093056, PROT_NONE) = 0
+mmap(0x7f2d781ca000, 765952, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xaf5000) = 0x7f2d781ca000
+mmap(0x7f2d78285000, 181752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2d78285000
+close(3)                                = 0
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=186303, ...}) = 0
+mmap(NULL, 186303, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2d79094000
+close(3)                                = 0
+open("/usr/lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\272\5\0\0\0\0\0@\0\0\0\0\0\0\0\10\351\16\0\0\0\0\0\0\0\0\0@\0008\0\10\0@\0\36\0\35\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0aX\16\0\0\0\0\0aX\16\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0 [\16\0\0\0\0\0 [.\0\0\0\0\0 [.\0\0\0\0\0\230\214\0\0\0\0\0\0\0\331\1\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\370\302\16\0\0\0\0\0\370\302.\0\0\0\0\0\370\302.\0\0\0\0\0 \2\0\0\0\0\0\0 \2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0\2\0\0\0\0\0\0\0\2\0\0\0\0\0\0\0\2\0\0\0\0\0\0$\0\0\0\0\0\0\0$\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0\7\0\0\0\4\0\0\0 [\16\0\0\0\0\0 [.\0\0\0\0\0 [.\0\0\0\0\0\0\0\0\0\0\0\0\0 \0\0\0\0\0\0\0\10\0\0\0\0\0\0\0P\345td\4\0\0\0\20Q\f\0\0\0\0\0\20Q\f\0\0\0\0\0\20Q\f\0\0\0\0\0\214J\0\0\0\0\0\0\214J\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0R\345td\4\0\0\0 [\16\0\0\0\0\0 [.\0\0\0\0\0 [.\0\0\0\0\0\340t\0\0\0\0\0\0\340t\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\317a\322E\204\323\371\v\250\35\205\242\362l\200\255\371\t'!\0\0\0\0\367\3\0\0\205\0\0\0\0\2\0\0\17\0\0\0\4\200G\0\202@@\230\0\0\0D\2\0\210\20\0\0\0\0\0\242\0\1(\4 \22 \6\220\10\2\f\10\5\2\0Z\0\0\20\n\1\0\10\22\2\\\0\300D\30 \4@\202\5+\200a \20\20\0\0!\201\0`E\0\6\5\271@\220\v\1\t$\30G\2\2\t\20\205\200\200)\10\234`\206i\4\204\304\200y\0d \"\210\3`$\220\200\0002\22( \2B\20B \200\302\2\20\202A\200\241@a\10 \24\0@\2\0\1\0\0\1\4\0\20 @\0\0 \2\0\0\0\0\20@\0\t\0\340\2\4\210\20\0\1@\206\4\2#8\365&@\201\3 \4\0\20\4\f$ \0@\10\0\f\20\0\0\0\4\20\0\6\6\5 B\210@\\\6 \0\20H\4 \0\0@\10\4\1\0\22\364\373\307\237\7\0\203\206\200\20\200\0$\2440 PH! \220\21\200$\340\247 !`\210\210\0\3\0\200\10\3\0\4\0\344\10\220", 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=979080, ...}) = 0
+mmap(NULL, 3159072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2d771d1000
+mprotect(0x7f2d772b7000, 2093056, PROT_NONE) = 0
+mmap(0x7f2d774b6000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe5000) = 0x7f2d774b6000
+mmap(0x7f2d774c0000, 82976, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2d774c0000
+close(3)                                = 0
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240V\0\0\0\0\0\0@\0\0\0\0\0\0\0000\322\17\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0\36\0\35\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\360@\17\0\0\0\0\0\360@\17\0\0\0\0\0\360@\17\0\0\0\0\0\36\0\0\0\0\0\0\0\36\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0l\302\17\0\0\0\0\0l\302\17\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\260\314\17\0\0\0\0\0\260\314/\0\0\0\0\0\260\314/\0\0\0\0\0L\4\0\0\0\0\0\0\230\4\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\310\314\17\0\0\0\0\0\310\314/\0\0\0\0\0\310\314/\0\0\0\0\0\20\2\0\0\0\0\0\0\20\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0\20A\17\0\0\0\0\0\20A\17\0\0\0\0\0\20A\17\0\0\0\0\0D\22\0\0\0\0\0\0D\22\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0R\345td\4\0\0\0\260\314\17\0\0\0\0\0\260\314/\0\0\0\0\0\260\314/\0\0\0\0\0P\3\0\0\0\0\0\0P\3\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\235\256\33\2222\211\3\375\215w\333\334\226~f\270MF\326\336\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0\2\0\0\0\6\0\0\0 \0\0\0\0\0\0\0\10\3\0\0\24\0\0\0@\0\0\0\f\0\0\0%\0`\0\0\240.\"\200\0\26\211\0 E\"\2\0\300``i\10\212\0\t\0\0\0\0\0\0\0\0\0\0\0\0\212P\20\1\10\0\0\4\1\302\24\1 \210\"\0\304\243X\240\n\6\216\0\212\0\0\4\0@\0\0 \20\0\5\0\5\r\7\7\22A\0\1\0\10\0\0@\0\t\0\20\4D\30\4\200a(\22@\4\1\nE\221 @\200\f\22\1\0\0\0\0\0\0\0\0\4\2\0\0\0@\0\200\2\20\322\0\1\10\4\301 E\1\0\310\"\0\4\2\0\202\0\4\0\0\0\4\0Y\4\2\0\n\200\1\0\0\4\0\20 \3\0\0\210 \10\20\0\0", 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1038768, ...}) = 0
+mmap(NULL, 3133768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2d76ed3000
+mprotect(0x7f2d76fd0000, 2093056, PROT_NONE) = 0
+mmap(0x7f2d771cf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xfc000) = 0x7f2d771cf000
+close(3)                                = 0
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/jli/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/jvm/java-7-openjdk/jre/bin/../lib/amd64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320*\0\0\0\0\0\0@\0\0\0\0\0\0\0\340T\1\0\0\0\0\0\0\0\0\0@\0008\0\6\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0,K\1\0\0\0\0\0,K\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\0P\1\0\0\0\0\0\0P!\0\0\0\0\0\0P!\0\0\0\0\0\330\3\0\0\0\0\0\0`\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0 P\1\0\0\0\0\0 P!\0\0\0\0\0 P!\0\0\0\0\0\360\1\0\0\0\0\0\0\360\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\220\1\0\0\0\0\0\0\220\1\0\0\0\0\0\0\220\1\0\0\0\0\0\0$\0\0\0\0\0\0\0$\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0\220+\1\0\0\0\0\0\220+\1\0\0\0\0\0\220+\1\0\0\0\0\0D\5\0\0\0\0\0\0D\5\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\240\6\321\235\16\321\313\224X\300\6v=\237E\327\264~=3\0\0\0\0\203\0\0\0\27\0\0\0\20\0\0\0\n\0\0\0\23\34\3\30\4$\0\1\1\201\0T\4\6\210\20\200\204\0\10\0\10\5\200\2\0@\20D\20\0\266\2\200\320 \301\0\220\2024\1\0\4\10(@\2H\1\v \320\1\2(\0235\4`l\322\0!\3p`@\322\200\10`\0@\1\0\200\1\0\0\2$\0\10\21\2\10H\300\1$\t\21(  \10C\v\246\202H\t\10\10\3D\f\n\34\22O\306\1\207\va\204\226\315\4\302\305\f\242\333\16\314\27\0\0\0\30\0\0\0\33\0\0\0\0\0\0\0\36\0\0\0\0\0\0\0 \0\0\0!\0\0\0#\0\0\0&\0\0\0(\0\0\0\0\0\0\0)\0\0\0+\0\0\0,\0\0\0/\0\0\0001\0\0\0004\0\0\0005\0\0\0008\0\0\0\0\0\0\0009\0\0\0:\0\0\0=\0\0\0>\0\0\0@\0\0\0A\0\0\0B\0\0\0C\0\0\0D\0\0\0F\0\0\0\0\0\0\0G\0\0\0\0\0\0\0H\0\0\0\0\0\0\0\0\0\0\0I\0\0\0J\0\0\0L\0\0\0M\0\0\0N\0\0\0\0\0\0\0\0\0\0\0P\0\0\0R\0\0\0\0\0\0\0\0\0\0\0S\0\0\0U\0\0\0\0\0\0\0V\0\0\0\0\0\0\0\0\0\0\0X\0\0\0Y\0\0\0Z\0\0\0\0\0\0\0\0\0\0\0\\\0\0\0]\0\0\0\0\0\0\0", 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=88992, ...}) = 0
+mmap(NULL, 2184800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2d76cbd000
+mprotect(0x7f2d76cd2000, 2097152, PROT_NONE) = 0
+mmap(0x7f2d76ed2000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f2d76ed2000
+close(3)                                = 0
+mprotect(0x7f2d771cf000, 4096, PROT_READ) = 0
+mprotect(0x7f2d774b6000, 32768, PROT_READ) = 0
+munmap(0x7f2d79094000, 186303)          = 0
+mmap(NULL, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f2d78f8f000
+mprotect(0x7f2d78f8f000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f2d7908eff0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f2d7908f9d0, tls=0x7f2d7908f700, child_tidptr=0x7f2d7908f9d0) = 10315
+futex(0x7f2d7908f9d0, FUTEX_WAIT, 10315, NULL <unfinished ...>
++++ exited with 1 +++
