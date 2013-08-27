@@ -164,6 +164,8 @@ public class AbstractAsyncRequestGet extends AsyncTask<Object, Void, String>
 		CookieSyncManager.createInstance(context);
 		CookieManager cookieManager = CookieManager.getInstance();
 		final String cookiestr = cookieManager.getCookie(Utility.getPref(VprokApplication.getAppContext(), Constants.API));
+        Log.e("TEST", "url pref " + Utility.getPref(VprokApplication.getAppContext(), Constants.API));
+        Log.e("TEST", "domain pref " + Utility.getDomainName(Utility.getPref(VprokApplication.getAppContext(), Constants.API)));
 		Log.e("TEST", "have cookie " + cookiestr);
 		if (cookiestr != null)
 		{
@@ -178,7 +180,7 @@ public class AbstractAsyncRequestGet extends AsyncTask<Object, Void, String>
 			for (int i = 0; i < customCookies.size(); i++)
 			{
 				cookie = new BasicClientCookie(customCookies.get(i).getName(), customCookies.get(i).getValue());
-                cookie.setDomain(Utility.getPref(VprokApplication.getAppContext(), Constants.API));
+                cookie.setDomain(Utility.getDomainName(Utility.getPref(VprokApplication.getAppContext(), Constants.API)));
 				cookieStore.addCookie(cookie);
 			}
 			client.setCookieStore(cookieStore);
