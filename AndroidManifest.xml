@@ -71,7 +71,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="landscape"
             android:stateNotNeeded="true"
-            android:theme="@style/CaptureTheme"
+            android:theme="@style/AppTheme"
             android:windowSoftInputMode="stateAlwaysHidden" >
             <intent-filter>
                 <action android:name="com.NGSE.zxinglib.SCAN" />

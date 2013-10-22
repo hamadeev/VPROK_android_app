@@ -184,7 +184,7 @@ public class AbstractAsyncRequestPost extends AsyncTask<Object, Void, String>
 
 		CookieSyncManager.createInstance(context);
 		CookieManager cookieManager = CookieManager.getInstance();
-		final String cookiestr = cookieManager.getCookie("vprok.tataronrails.com");
+		final String cookiestr = cookieManager.getCookie("shop.tkvprok.ru");
 		Log.e("TEST", "have cookie " + cookiestr);
 		if (cookiestr != null)
 		{
@@ -199,7 +199,7 @@ public class AbstractAsyncRequestPost extends AsyncTask<Object, Void, String>
 			for (int i = 0; i < customCookies.size(); i++)
 			{
 				cookie = new BasicClientCookie(customCookies.get(i).getName(), customCookies.get(i).getValue());
-				cookie.setDomain("vprok.tataronrails.com");
+				cookie.setDomain("shop.tkvprok.ru");
 				cookieStore.addCookie(cookie);
 			}
 			client.setCookieStore(cookieStore);
