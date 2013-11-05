@@ -86,7 +86,7 @@ public class DetectProductActivity extends Activity
 
 	private void getCode()
 	{
-		Intent intent = new Intent("com.NGSE.zxinglib.SCAN");
+		Intent intent = new Intent("com.google.zxing.client.android.SCAN");
 		// intent.putExtra("SCAN_MODE", "QR_CODE");
 		startActivityForResult(intent, 0);
 	}
